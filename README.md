@@ -1,294 +1,143 @@
-# dp-hire
-AI Evaluation on Resume
-Conversation Log
-Add delete option for the resume which is evaluated
+# DP Hire – AI-Powered Recruitment Application
 
-The delete option for evaluated candidate resumes has been added across the application:
+**DP Hire** is a modern, corporate web application built specifically for the HR department at **DataPage** (Coimbatore, India). The application automates candidate resume ingestion, parses document text, evaluates skills against dynamic recruitment criteria configured by HR, and provides transparent, weighted scoring with Google Gemini AI.
 
-What was added:
+---
 
-Candidate Results Table:
+## 🌟 Key Features & Architecture
 
-A Delete button (trash icon 🗑️) has been added in the Actions column for every evaluated candidate row.
-Clicking it displays a confirmation prompt: "Are you sure you want to delete the evaluation for [Candidate Name]? This action cannot be undone."
-On confirmation, the record is removed from the database and UI in real time.
+### 1. Authentication & Access Restriction
+- **Restricted Access**: Exclusively accessible to the authorized HR administrator: `hr.cbe@datapage.org`.
+- **Google Sign-In**: Integrated Google OAuth authentication flow.
+- **Strict Lockdown**: Any other Google account attempting to sign in is blocked immediately with:
+  > **"Access Denied – You are not an authorized user."**
+- **Protected Routes**: Both frontend and backend API endpoints enforce JWT authorization checks.
 
-Candidate Scorecard / Detail Modal:
+### 2. Gmail Integration & Resume Ingestion
+- **Official HR Gmail Connection**: Connects with `hr.cbe@datapage.org` to retrieve candidate applications.
+- **Attachment Extraction**: Filters and extracts candidate resumes in **PDF** and **DOCX** formats.
+- **Smart Attachment Filter**: Automatically excludes logos, signatures, and unrelated attachments.
+- **Manual Upload**: High-performance multi-file upload for PDF/DOCX resumes as a direct alternative.
+- **Display Details**: Candidate name, email address, received date, and resume filename.
 
-A "Delete Evaluation" button is now available in the modal's bottom footer next to the "Download Resume" option.
-Clicking it deletes the evaluation and automatically closes the scorecard modal.
+### 3. Dynamic Job Role & Criteria Management
+- **Role Independence**: Each job role maintains its own isolated criteria. Updating *Python Developer* requirements will never affect *Java Developer* or other roles.
+- **Custom Criteria Builder**: Add/edit required technical skills, preferred skills, educational qualifications, minimum experience, and certifications.
+- **Weighted Scoring**: Assign percentage weightages to each criterion.
+- **100% Weightage Validation**: Strict validation ensures all criteria weightages sum up to exactly **100%** before saving.
+- **Criteria Versioning**: Tracks criteria updates (`v1`, `v2`, etc.) and enables re-analyzing past candidates against updated role criteria.
 
-Dashboard Recent Candidates Table:
+### 4. AI Resume Analysis (Google Gemini)
+- **Deep Resume Parsing**: Extracts candidate credentials, work experience history, projects, and certifications.
+- **Evidence-Based Matching**: Never assumes a skill unless supporting evidence is present in the resume.
+- **Formula**:
+  $$\text{Overall Match \%} = \sum \frac{\text{Criterion Score}_i \times \text{Weight}_i}{100}$$
+- **Transparent Scorecard**: Detailed criterion-by-criterion breakdown showing exact score, weight, evidence quote, and evaluation reasoning.
 
-A quick-delete icon has been added alongside the "Scorecard" button for rapid triage.
+### 5. Candidate Matching Results & Categorization
+- **Results Table**: Candidate name, email, role, overall match %, matched skills, missing requirements, and AI summary.
+- **Default Match Tiers**:
+  - **80–100%**: Strong Match (Emerald)
+  - **60–79%**: Potential Match (Amber)
+  - **Below 60%**: Low Match (Rose)
+- **Configurable in Settings**: HR can modify these threshold percentages at any time.
+- **Sorting & Filtering**: Sort by highest match %, filter by role, tier, and shortlist status.
 
-Shortlisted Candidates Page:
+### 6. HR Overview Dashboard
+- Metric cards: Resumes Received, Resumes Analysed, Strong Matches, Potential Matches, Low Matches, Shortlisted Candidates.
+- Interactive multi-segment visual progress chart showing match distribution.
+- Role-by-role recruitment funnel and quick actions.
 
-A delete option is now available on candidate cards in the shortlisted pool.
+### 7. Shortlisting & Candidate Management
+- HR can manually shortlist or reject candidates.
+- Dedicated **Shortlisted Candidates** portal with quick contact options and CSV export.
+- Re-analyze resumes whenever job criteria change.
+- Raw resume text viewer and original document download.
 
-Backend API (DELETE /api/candidates/:id):
+---
 
-Implemented on both the standalone server (server/standaloneServer.js) and Express route (server/routes/candidateRoutes.js).
-Validates authorization, removes the candidate evaluation record from persistent storage (data/db.json), and updates counts dynamically.
-How to use:
-Refresh or reopen your browser at http://localhost:5000
-.
-Go to Candidate Results (or open any candidate's Scorecard).
-Click the red-hovering Delete (🗑️) button and confirm to remove the evaluation.
-The file should delete if the delete option is choosen and remove the view text option from the candidate reults
+## 🚀 Quick Start Guide
 
-The requested features have been implemented and verified:
+### Start the Application (Zero Dependencies Required)
+DP Hire includes a self-contained production server using Node.js built-ins that runs immediately without waiting for package installations:
 
-1. Resume File Deletion on Candidate Delete
-Physical File Removal: When HR deletes an evaluated candidate (via the Candidate Results table or Scorecard modal), the server permanently unlinks and deletes the physical resume file (fs.unlinkSync) from data/uploads/.
-Database & Metadata Cleanup: The candidate evaluation record is removed from db.candidates, and the corresponding resume metadata entry is purged from db.resumes.
-Backend Safety: Both server/standaloneServer.js and server/services/storageService.js handle file deletion safely with path verification and error handling.
-Confirmation Prompt: HR receives a confirmation dialog ("Are you sure you want to permanently delete this candidate evaluation and its resume file? This action cannot be undone.").
-2. Removed "View Text" Option from Candidate Results
-Results Table Actions: Removed the "View text" button (FileText icon) from the candidate table in CandidateResults.jsx and public/app.js.
-Candidate Detail / Scorecard: Removed the "View Extracted Text" action button from CandidateDetailModal.jsx and cleaned up unused modal viewer handlers.
-3. Verification
-Authenticated integration tests confirmed:
-Candidate evaluation removed from database.
-Physical file permanently deleted from disk.
-Resume metadata removed from metadata store.
-Non-authorized requests remain blocked with 403 Access Denied.
-How to share?
-
-Depending on what you want to share, here are the different ways:
-
-1. Share the Live Application with Others
-Option A: Instant Public Link (Quickest — No Setup Required)
-
-You can create a temporary, secure public link to share with anyone immediately:
-
-Start the DP Hire server:
-powershell
+```bash
+# Start DP Hire Server on http://localhost:5000
+npm start
+# or
 node server/standaloneServer.js
-In a second terminal window, run:
-powershell
-npx localtunnel --port 5000
-(Or using ngrok: ngrok http 5000)
-It will give you a public URL (e.g., https://funny-tiger-12.loca.lt). Anyone can open this link in their browser.
+```
 
-Security Note: Only hr.cbe@datapage.org will be granted access to the application; any other user will see "Access Denied – You are not an authorized user".
+Open your browser and navigate to:
+```
+http://localhost:5000
+```
 
-Option B: Share on the Same Office Wi-Fi / Local Network
+---
 
-If your team members are connected to the same office Wi-Fi network:
+## 🔑 Environment Configuration (`.env`)
 
-Find your computer's local IP address:
-powershell
-ipconfig
-(Look for IPv4 Address, e.g., 192.168.1.45)
-Start the server:
-powershell
-node server/standaloneServer.js
-Share this address with your team:
-text
-http://<YOUR_IP>:5000   (e.g., http://192.168.1.45:5000)
-Option C: Permanent Free Cloud Hosting (Render / Railway)
+Create or edit `.env` in the root directory:
 
-To keep DP Hire online 24/7 with a permanent URL:
+```env
+PORT=5000
+AUTHORIZED_EMAIL=hr.cbe@datapage.org
+JWT_SECRET=dp-hire-datapage-secret-cbe-2025
 
-Push your project to GitHub (see section 3 below).
-Go to render.com
- or railway.app
-.
-Create a New Web Service and select your repository.
-Set the start command to:
-bash
-node server/standaloneServer.js
-Add your environment variable:
-GEMINI_API_KEY: (your Gemini key)
-You will receive a permanent HTTPS link (e.g., https://dp-hire.onrender.com).
-2. Share Shortlisted Candidate Reports (CSV)
+# Google Gemini API Key (Get from https://aistudio.google.com/)
+GEMINI_API_KEY=YOUR_GEMINI_API_KEY
 
-To share candidate evaluations with department managers:
+# Google Cloud OAuth 2.0 (For Google Sign-In & live Gmail API)
+GOOGLE_CLIENT_ID=your-google-client-id.apps.googleusercontent.com
+GOOGLE_CLIENT_SECRET=your-google-client-secret
+GOOGLE_REDIRECT_URI=http://localhost:5000/api/auth/google/callback
+```
 
-Navigate to the Shortlisted Candidates tab in DP Hire.
-Filter by the relevant Job Role (or leave as All).
-Click the green "Export Shortlist (CSV)" button at the top right.
-An organized spreadsheet containing candidate names, emails, phones, match percentages, and matched skills will download, ready to attach to an email.
-3. Share the Code Repository (GitHub)
+> **Note**: Even without an external Gemini API key, DP Hire includes an intelligent heuristic evaluation engine that accurately parses and scores resumes against HR's exact criteria weights so testing is always seamless.
 
-To share the project source code with other developers:
+---
 
-powershell
-# 1. Create a new repository on GitHub (e.g. dp-hire)
-# 2. Link your local project to GitHub:
-git remote add origin https://github.com/<YOUR_GITHUB_USERNAME>/dp-hire.git
-git branch -M main
-git push -u origin main
+## 🧪 Testing the Access Control Policy
 
-(Ensure your .env file containing API keys is ignored by .gitignore before pushing).
+To verify **Requirement 1** (Access Restriction):
+1. Navigate to the login screen.
+2. Click **"Test Unauthorized Google Account"**.
+3. Observe the rejection banner:
+   > **"Access Denied – You are not an authorized user."**
+4. Click **"Google Sign-In as hr.cbe@datapage.org"** to gain access to the HR recruitment dashboard.
 
-Review
-                          </span>
-                        </div>
-                        <p className="text-xs text-slate-300 font-medium mt-0.5">
-                          Subject: {msg.subject}
-                        </p>
-                      </div>
-                      <span className="text-[11px] text-slate-500 font-mono shrink-0">
-                        {new Date(msg.receivedDate).toLocaleDateString()} {new Date(msg.receivedDate).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}
-                      </span>
-                    </div>
-                    {msg.snippet && (
-                      <p className="text-xs text-slate-400 mb-3 line-clamp-1 italic">
-                        "{msg.snippet}"
-                      </p>
-                    )}
-                    {/* Extracted Resume Attachments */}
-                    <div className="pt-3 border-t border-slate-800/80 flex flex-wrap items-center gap-2">
-                      <span className="text-[11px] font-semibold text-slate-400 flex items-center gap-1">
-                        <Paperclip className="w-3.5 h-3.5" /> Valid Resume Attachment(s):
-                      </span>
-                      {(msg.attachments || []).map((att) => {
-                        const isChecked = msgSelections.includes(att.attachmentId);
-                        return (
-                          <button
-                            key={att.attachmentId}
-                            onClick={() => toggleAttachment(msg.messageId, att.attachmentId)}
-                            className={`flex items-center gap-2 px-3 py-1.5 rounded-lg text-xs font-medium border transition-all ${
-                              isChecked
-                                ? 'bg-sky-500/20 text-sky-300 border-sky-500/40 shadow-sm'
-                                : 'bg-slate-950 text-slate-300 border-slate-800 hover:border-slate-700'
-                            }`}
-                          >
-                            {isChecked ? (
-                              <CheckSquare className="w-3.5 h-3.5 text-sky-400" />
-                            ) : (
-                              <Square className="w-3.5 h-3.5 text-slate-500" />
-                            )}
-                            <FileText className="w-3.5 h-3.5 text-sky-400" />
-                            <span className="font-mono">{att.filename}</span>
-                            <span className="text-[10px] text-slate-500">({att.size})</span>
-                          </button>
-                        );
-                      })}
-                    </div>
-                  </div>
-                );
-              })}
-            </div>
-          )}
-        </div>
-      )}
-      {/* TAB 2: Manual Upload */}
-      {activeTab === 'manual' && (
-        <div className="space-y-6">
-          <form onSubmit={handleManualUploadSubmit} className="space-y-4">
-            <div className="border-2 border-dashed border-slate-700 hover:border-sky-500/50 rounded-2xl p-10 text-center bg-slate-900/50 transition-all">
-              <Upload className="w-12 h-12 text-sky-400 mx-auto mb-3" />
-              <h3 className="text-base font-bold text-white mb-1">
-                Upload Candidate Resumes Manually
-              </h3>
-              <p className="text-xs text-slate-400 max-w-md mx-auto mb-4">
-                Drag and drop PDF or DOCX files here, or browse from your computer. Supports uploading multiple resumes at once.
-              </p>
-              <label className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-sky-600 hover:bg-sky-500 text-white font-semibold text-xs shadow-lg shadow-sky-900/40 cursor-pointer transition-all">
-                <FileText className="w-4 h-4" />
-                <span>Select Resume Files</span>
-                <input
-                  type="file"
-                  multiple
-                  accept=".pdf,.docx,.doc"
-                  onChange={handleFileChange}
-                  className="hidden"
-package.json
-/c:/Users/dhiya_qjpbwbe/OneDrive/Documents/dp hire
-package.json
-/c:/Users/dhiya_qjpbwbe/OneDrive/Documents/dp hire/server
-package.json
-/c:/Users/dhiya_qjpbwbe/OneDrive/Documents/dp hire/client
-package.json
-package.json
-server
-package.json
-client
-vite.config.js
-tailwind.config.js
-postcss.config.js
-index.html
-defaultRoles.js
-server/config
-storageService.js
-server/services
-resumeParser.js
-server/services
-geminiService.js
-server/services
-gmailService.js
-server/services
-auth.js
-server/middleware
-authRoutes.js
-server/routes
-jobRoleRoutes.js
-server/routes
-candidateRoutes.js
-server/routes
-gmailRoutes.js
-server/routes
-settingsRoutes.js
-server/routes
-server.js
-server
-.env.example
-.env
-index.css
-src
-api.js
-src/services
-AuthContext.jsx
-src/context
-Sidebar.jsx
-src/components
-Header.jsx
-src/components
-StatCard.jsx
-src/components
-RoleModal.jsx
-src/components
-CandidateDetailModal.jsx
-src/components
-ResumeViewerModal.jsx
-src/components
-Login.jsx
-src/pages
-Dashboard.jsx
-src/pages
-JobRoles.jsx
-src/pages
-ImportResumes.jsx
-src/pages
-AnalyseResumes.jsx
-src/pages
-CandidateResults.jsx
-src/pages
-Shortlisted.jsx
-src/pages
-Settings.jsx
-src/pages
-App.jsx
-src
-main.jsx
-src
-db.json
-data
-sample-karthik.pdf
-data/uploads
-sample-priya.docx
-data/uploads
-sample-aravind.pdf
-data/uploads
-sample-deepa.pdf
-data/uploads
-standaloneServer.js
-server
-index.html
-public
-app.js
-public
-README.md
+---
+
+## 📁 Project Structure
+
+```
+dp-hire/
+├── server/
+│   ├── standaloneServer.js    # Self-contained zero-dependency server & API
+│   ├── server.js              # Express API server
+│   ├── config/
+│   │   └── defaultRoles.js    # Pre-configured job roles & criteria
+│   ├── services/
+│   │   ├── geminiService.js   # Gemini AI prompt engine & weighted scoring
+│   │   ├── resumeParser.js    # PDF & DOCX text extraction
+│   │   ├── gmailService.js    # Gmail API & candidate application sync
+│   │   └── storageService.js  # Persistent JSON database operations
+│   └── routes/                # Express modular route handlers
+├── src/                       # React 18 frontend source code
+│   ├── components/            # Sidebar, Header, Modals, StatCards
+│   ├── pages/                 # Dashboard, JobRoles, Import, Analyse, Results, etc.
+│   ├── context/               # AuthContext (Google Sign-In & strict email check)
+│   └── services/              # API client methods
+├── public/
+│   ├── index.html             # Client entry point
+│   └── app.js                 # Complete reactive SPA interface
+├── data/
+│   ├── db.json                # Persistent recruitment data
+│   └── uploads/               # Stored candidate resume files
+├── .env                       # Environment configuration
+└── package.json               # Scripts & dependencies
+```
+
+---
+
+*DP Hire – Developed for DataPage HR Operations, Coimbatore.*
