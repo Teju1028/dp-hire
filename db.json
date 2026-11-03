@@ -1,0 +1,1032 @@
+{
+  "jobRoles": [
+    {
+      "id": "role-python-dev",
+      "title": "Python Developer",
+      "department": "Software Engineering",
+      "location": "Coimbatore, India (On-site / Hybrid)",
+      "experienceLevel": "Mid to Senior (3-6 years)",
+      "minExperienceYears": 3,
+      "status": "Active",
+      "description": "Looking for a skilled Python developer to build robust backend microservices, data processing pipelines, and AI-enabled workflows at DataPage.",
+      "version": 1,
+      "criteria": [
+        {
+          "id": "c1",
+          "name": "Python Programming",
+          "category": "Required Skill",
+          "weight": 30,
+          "description": "Core Python, async programming, data structures, and best practices"
+        },
+        {
+          "id": "c2",
+          "name": "SQL & Database Design",
+          "category": "Required Skill",
+          "weight": 20,
+          "description": "PostgreSQL/MySQL, schema design, query optimization, indexing"
+        },
+        {
+          "id": "c3",
+          "name": "Machine Learning / AI",
+          "category": "Preferred Skill",
+          "weight": 20,
+          "description": "Familiarity with ML frameworks (PyTorch, TensorFlow, Scikit-Learn) or LLM APIs"
+        },
+        {
+          "id": "c4",
+          "name": "Communication & Teamwork",
+          "category": "Soft Skill",
+          "weight": 10,
+          "description": "Cross-functional collaboration, technical documentation, agile communication"
+        },
+        {
+          "id": "c5",
+          "name": "Problem Solving & Algorithms",
+          "category": "Technical Skill",
+          "weight": 10,
+          "description": "System design, algorithm optimization, debugging complexity"
+        },
+        {
+          "id": "c6",
+          "name": "Education (B.Tech/BE/MCA/M.Sc)",
+          "category": "Education",
+          "weight": 10,
+          "description": "Bachelor or Master degree in Computer Science, IT, or related engineering discipline"
+        }
+      ],
+      "createdAt": "2026-11-02T13:43:36.634Z",
+      "updatedAt": "2026-11-02T13:43:36.634Z"
+    },
+    {
+      "id": "role-java-dev",
+      "title": "Java Developer",
+      "department": "Enterprise Solutions",
+      "location": "Coimbatore, India",
+      "experienceLevel": "Mid-Level (2-5 years)",
+      "minExperienceYears": 2,
+      "status": "Active",
+      "description": "Seeking a proficient Java Software Engineer to develop scalable enterprise microservices using Spring Boot and cloud-native architecture.",
+      "version": 1,
+      "criteria": [
+        {
+          "id": "c1",
+          "name": "Core Java & Multi-threading",
+          "category": "Required Skill",
+          "weight": 35,
+          "description": "Java 17+, Concurrency, JVM internals, Collections framework"
+        },
+        {
+          "id": "c2",
+          "name": "OOP Concepts & Design Patterns",
+          "category": "Required Skill",
+          "weight": 20,
+          "description": "SOLID principles, clean architecture, enterprise design patterns"
+        },
+        {
+          "id": "c3",
+          "name": "SQL & Relational Databases",
+          "category": "Required Skill",
+          "weight": 15,
+          "description": "Complex queries, transactions, ORM (Hibernate/JPA)"
+        },
+        {
+          "id": "c4",
+          "name": "Spring Boot & Microservices",
+          "category": "Technical Skill",
+          "weight": 15,
+          "description": "REST APIs, Spring Cloud, Docker, Kafka or MQ"
+        },
+        {
+          "id": "c5",
+          "name": "Problem Solving",
+          "category": "Soft Skill",
+          "weight": 10,
+          "description": "Troubleshooting production issues, logical reasoning"
+        },
+        {
+          "id": "c6",
+          "name": "Education (Degree in CS/IT)",
+          "category": "Education",
+          "weight": 5,
+          "description": "B.E / B.Tech / MCA or relevant technical qualification"
+        }
+      ],
+      "createdAt": "2026-11-02T13:43:36.634Z",
+      "updatedAt": "2026-11-02T13:43:36.634Z"
+    },
+    {
+      "id": "role-frontend-react",
+      "title": "Frontend React Developer",
+      "department": "UI/UX Engineering",
+      "location": "Coimbatore, India",
+      "experienceLevel": "2-4 years",
+      "minExperienceYears": 2,
+      "status": "Active",
+      "description": "Seeking a React frontend specialist with strong TypeScript, modern CSS, and component design skills to create responsive user interfaces.",
+      "version": 1,
+      "criteria": [
+        {
+          "id": "c1",
+          "name": "React.js & Hooks",
+          "category": "Required Skill",
+          "weight": 35,
+          "description": "Custom hooks, state management, performance optimization, React 18+"
+        },
+        {
+          "id": "c2",
+          "name": "JavaScript (ES6+) & TypeScript",
+          "category": "Required Skill",
+          "weight": 25,
+          "description": "Type safety, async flows, modern DOM APIs"
+        },
+        {
+          "id": "c3",
+          "name": "Tailwind CSS & Responsive UI",
+          "category": "Technical Skill",
+          "weight": 15,
+          "description": "Modern responsive design, animations, accessible components"
+        },
+        {
+          "id": "c4",
+          "name": "REST & GraphQL API Integration",
+          "category": "Technical Skill",
+          "weight": 10,
+          "description": "API fetching, error handling, caching"
+        },
+        {
+          "id": "c5",
+          "name": "Code Quality & Testing",
+          "category": "Technical Skill",
+          "weight": 10,
+          "description": "Unit testing (Vitest/Jest), clean code, Git practices"
+        },
+        {
+          "id": "c6",
+          "name": "Education",
+          "category": "Education",
+          "weight": 5,
+          "description": "Degree in Engineering or Computer Science"
+        }
+      ],
+      "createdAt": "2026-11-02T13:43:36.634Z",
+      "updatedAt": "2026-11-02T13:43:36.634Z"
+    },
+    {
+      "id": "role-1793628777790",
+      "title": "Web Developer",
+      "department": "Web Development",
+      "location": "Coimbatore, India",
+      "experienceLevel": "Mid-Level",
+      "minExperienceYears": 3,
+      "status": "Active",
+      "description": "",
+      "version": 1,
+      "criteria": [
+        {
+          "id": "c-1793628777791-0",
+          "name": "Python Programming",
+          "category": "Technical Skill",
+          "weight": 30,
+          "description": "Core Python, async programming"
+        },
+        {
+          "id": "c-1793628777791-1",
+          "name": "SQL & Database Design",
+          "category": "Technical Skill",
+          "weight": 20,
+          "description": "PostgreSQL/MySQL schema design"
+        },
+        {
+          "id": "c-1793628777791-2",
+          "name": "Machine Learning",
+          "category": "Technical Skill",
+          "weight": 20,
+          "description": "PyTorch, Scikit-learn, LLM APIs"
+        },
+        {
+          "id": "c-1793628777791-3",
+          "name": "Communication",
+          "category": "Technical Skill",
+          "weight": 10,
+          "description": "Agile team collaboration"
+        },
+        {
+          "id": "c-1793628777791-4",
+          "name": "Problem Solving",
+          "category": "Technical Skill",
+          "weight": 10,
+          "description": "Algorithms & system design"
+        },
+        {
+          "id": "c-1793628777791-5",
+          "name": "Education",
+          "category": "Education",
+          "weight": 10,
+          "description": "Engineering or CS degree"
+        }
+      ],
+      "createdAt": "2026-11-02T14:12:57.791Z",
+      "updatedAt": "2026-11-02T14:12:57.791Z"
+    }
+  ],
+  "candidates": [
+    {
+      "id": "cand-1793628782841-zcbg",
+      "jobRoleId": "role-python-dev",
+      "jobRoleTitle": "Python Developer",
+      "jobRoleVersion": 1,
+      "criteriaSnapshot": [
+        {
+          "id": "c1",
+          "name": "Python Programming",
+          "category": "Required Skill",
+          "weight": 30,
+          "description": "Core Python, async programming, data structures, and best practices"
+        },
+        {
+          "id": "c2",
+          "name": "SQL & Database Design",
+          "category": "Required Skill",
+          "weight": 20,
+          "description": "PostgreSQL/MySQL, schema design, query optimization, indexing"
+        },
+        {
+          "id": "c3",
+          "name": "Machine Learning / AI",
+          "category": "Preferred Skill",
+          "weight": 20,
+          "description": "Familiarity with ML frameworks (PyTorch, TensorFlow, Scikit-Learn) or LLM APIs"
+        },
+        {
+          "id": "c4",
+          "name": "Communication & Teamwork",
+          "category": "Soft Skill",
+          "weight": 10,
+          "description": "Cross-functional collaboration, technical documentation, agile communication"
+        },
+        {
+          "id": "c5",
+          "name": "Problem Solving & Algorithms",
+          "category": "Technical Skill",
+          "weight": 10,
+          "description": "System design, algorithm optimization, debugging complexity"
+        },
+        {
+          "id": "c6",
+          "name": "Education (B.Tech/BE/MCA/M.Sc)",
+          "category": "Education",
+          "weight": 10,
+          "description": "Bachelor or Master degree in Computer Science, IT, or related engineering discipline"
+        }
+      ],
+      "candidateName": "Naukri Arun[2y 4m] (1)",
+      "candidateEmail": "arunmurugesan999@gmail.com",
+      "candidatePhone": "20261101174320",
+      "candidateLocation": "Coimbatore, India",
+      "totalExperienceYears": 6,
+      "educationDetails": [
+        "Engineering / Computer Science degree verified"
+      ],
+      "experienceDetails": [
+        "6 years relevant industry experience"
+      ],
+      "matchedSkills": [
+        "Education (B.Tech/BE/MCA/M.Sc)"
+      ],
+      "missingSkills": [
+        "Python Programming",
+        "SQL & Database Design",
+        "Machine Learning / AI",
+        "Communication & Teamwork",
+        "Problem Solving & Algorithms"
+      ],
+      "educationMatch": "Meets academic criteria",
+      "experienceMatch": "Meets minimum 3 years requirement",
+      "criteriaBreakdown": [
+        {
+          "criterionId": "c1",
+          "criterionName": "Python Programming",
+          "category": "Required Skill",
+          "weight": 30,
+          "score": 26,
+          "weightedScore": 8,
+          "evidenceFound": "No direct mention of \"Python Programming\".",
+          "evaluationNotes": "Lacks sufficient demonstration of Python Programming."
+        },
+        {
+          "criterionId": "c2",
+          "criterionName": "SQL & Database Design",
+          "category": "Required Skill",
+          "weight": 20,
+          "score": 34,
+          "weightedScore": 7,
+          "evidenceFound": "No direct mention of \"SQL & Database Design\".",
+          "evaluationNotes": "Lacks sufficient demonstration of SQL & Database Design."
+        },
+        {
+          "criterionId": "c3",
+          "criterionName": "Machine Learning / AI",
+          "category": "Preferred Skill",
+          "weight": 20,
+          "score": 31,
+          "weightedScore": 6,
+          "evidenceFound": "No direct mention of \"Machine Learning / AI\".",
+          "evaluationNotes": "Lacks sufficient demonstration of Machine Learning / AI."
+        },
+        {
+          "criterionId": "c4",
+          "criterionName": "Communication & Teamwork",
+          "category": "Soft Skill",
+          "weight": 10,
+          "score": 31,
+          "weightedScore": 3,
+          "evidenceFound": "No direct mention of \"Communication & Teamwork\".",
+          "evaluationNotes": "Lacks sufficient demonstration of Communication & Teamwork."
+        },
+        {
+          "criterionId": "c5",
+          "criterionName": "Problem Solving & Algorithms",
+          "category": "Technical Skill",
+          "weight": 10,
+          "score": 34,
+          "weightedScore": 3,
+          "evidenceFound": "No direct mention of \"Problem Solving & Algorithms\".",
+          "evaluationNotes": "Lacks sufficient demonstration of Problem Solving & Algorithms."
+        },
+        {
+          "criterionId": "c6",
+          "criterionName": "Education (B.Tech/BE/MCA/M.Sc)",
+          "category": "Education",
+          "weight": 10,
+          "score": 95,
+          "weightedScore": 10,
+          "evidenceFound": "Academic degree credentials validated from profile.",
+          "evaluationNotes": "Satisfies requirements for Education (B.Tech/BE/MCA/M.Sc)."
+        }
+      ],
+      "overallMatchPercentage": 37,
+      "recommendation": "Low Match",
+      "evaluationSummary": "Candidate demonstrates key competencies in Education (B.Tech/BE/MCA/M.Sc). Overall weighted alignment with Python Developer is 37%.",
+      "resumeFilename": "Naukri_Arun[2y_4m] (1).pdf",
+      "resumeFilePath": "C:\\Users\\dhiya_qjpbwbe\\OneDrive\\Documents\\dp hirex\\data\\uploads\\upload-1793628699873-67xa-Naukri_Arun[2y_4m] (1).pdf",
+      "resumeRawText": "%PDF-1.4 % 1 0 obj <</Title(Arun M IT Support)/Producer(Aspose.PDF for Java 18.8)/Tracking_Info(https://hiring.naukri.com/cloudgateway-rm/rm-document-services/v0/web/trackCv?cvTrackingParams=g38wBsRLPaWk0AkfASoZT895.Of1SSL73J9T9Waocb2XgJNQFw3QGZZ5VM.dAkasWs9rKPNWEOF2vxQ6p9ZjKNpMgHjgd_npxnOMUbNXvzY_eZfugqnrwCNGh8LHD82alqZxcJMPd50TP6reWY04qcnu7wmE2xnzN_.uyiK835Q5ZfljVxN1Okm_.4Saxz1Bs6ZUre.28lDOHgEP7NZUVQhI2m1qYP2PkjUhDPm6XKJLtuW9rQVhO_UsptHHBL5IBe6O65CgdzIRiIFVB1lhUdda5JD3Qyrm9_0BcKGxKmcz9vbJhCzLCkFL1EpTrJIFXtDuVk2dWBvvS3g2EFhRXg--)/Creator(Aspose Ltd.)/ModDate(D:20261101174320+05'30')>> endobj 2 0 obj <</Type/Page/Resources<</ProcSet[/PDF/Text/ImageB/ImageC/ImageI]/ExtGState<</G3 3 0 R/G6 6 0 R>>/Font<</F4 4 0 R/F5 5 0 R/F7 7 0 R/F8 8 0 R>>>>/MediaBox[0 0 612 1008]/Annots[9 0 R 10 0 R 11 0 R]/Contents 12 0 R/StructParents 0/Tabs/S/Parent 13 0 R>> endobj 3 0 obj <</ca 1/BM/Normal>> endobj 4 0 obj <</Type/Font/Subtype/Type0/BaseFont/AAAAAA+Arial-BoldMT/Encoding/Identity-H/DescendantFonts[70 0 R]/ToUnicode 71 0 R>> endobj 5 0 obj <</Type/Font/Subtype/Type0/BaseFont/BAAAAA+ArialMT/Encoding/Identity-H/DescendantFonts[74 0 R]/ToUnicode 75 0 R>> endobj 6 0 obj <</CA 1/ca 1/LC 0/LJ 0/LW 1.33333337/ML 10/SA true/BM/Normal>> endobj 7 0 obj <</Type/Font/Subtype/Type0/BaseFont/CAAAAA+Arial-ItalicMT/Encoding/Identity-H/DescendantFonts[78 0 R]/ToUnicode 79 0 R>> endobj 8 0 obj <</Type/Font/Subtype/Type0/BaseFont/DAAAAA+FreeSerif/Encoding/Identity-H/DescendantFonts[82 0 R]/ToUnicode 83 0 R>> endobj 9 0 obj <</Type/Annot/Subtype/Link/F 4/Border[0 0 0]/Rect[31.123699 939.52264 86.71727 951.02167]/A<</Type/Action/S/URI/URI(tel://8608435954)>>/StructParent 1>> endobj 10 0 obj <</Type/Annot/Subtype/Link/F 4/Border[0 0 0]/Rect[100.422874 939.52264 242.81363 951.02167]/A<</Type/Action/S/URI/URI(mailto:arunmurugesan999@gmail.com)>>/StructParent 2>> endobj 11 0 obj <</Type/Annot/Subtype/Link/F 4/Border[0 0 0]/Rect[256.51923 939.52264 330.42105 951.02167]/A<</Type/Action/S/URI/URI(http://linkedin.com/in/thearunm)>>/StructParent 3>> endobj 12 0 obj <</Filter/FlateDecode/Length 16035>>stream x } 9r = y a\\x HgZ = ` YYI * j T \" `\\ a>~ ? _ ? / ? / < @ ?} / @ X ( c%~ } \"{%_ x o ~ ? ~ _ o F\\ b>~ q c } | hE ao+ G A` H5!6C C o8 xoB H> b - r % } Hyi ! l 8 q Y L @ G B w *I dX A ] st; 6 ' , x ` y I c3 M l <8' }< 6 + x H : l V A v XpA 5I4x 5 C4 qi- %\"dx Po - -$Z7 1 514V P>2 E M Q _ [G & ! D\\v0 D N @ < K ' x b ! y ' L & [- u<2Cd j m y1 O (:l8_` M c w 1 g ;5 kx |\\ c. wJ ; Z < [w 5 [ N X#@Q J ] _ J Zu 7 s * , ( P O ' ? . ] v q KI 6 u0z _ {~ [> $ > = | c v wA= re W ^dd X >C ^ u g=K z C@8 = k< \" _ 5 , } 2: ~@ A ; tG H &L h l ;;Zz U . ]9 ,D * @ t( ? e j g={ 4/ Ms 9 w F 2# Ls ? h < g CZ QV . \\ ) #w oG w -<o J % G9 z [ q G % ? P7g 5 K z m6 v q !z / X n { ( i # c q )t_ ] r Dc4%\" x ,e. 2 Q y Z%[\\$i #Q+F b Bw <l ' i* Uw C D' # C i ?;\\ N:2 q g y p a0 Qb: 6) +o $ r , 8k ? $/ /y @^H\\ 4 IExNa b 1^' =s JSyI DP y % r o b F o w g % yv5 iE ? nY -5 *F > QS g C yT- ] ! a n@ ]V i 5 <FO= &Z } U ? iB n 8 %aT \" 2*.M ,k 5 ! A d [ 4 t 1H !cj _ 5G Ks% goA nW Rnujm g o m^ Z G d 8 A| Ov v Y Dl , ! 0< 6e ` L z Mhm ` D Ri j \\ V 0~ 3C i E#|U e Wzb F( $ q HjPV2 IW \"i E N J k - : k G G 0 & #Yl{) C X y 1 ! A RGH 49j ?B z Q m E vK [ ` W n | S IA - ; J $ H BRQg O j _+ n\\+ X C G 9 zK l * hA Bwu j - QV b J ,e : ) S - 8 S b | w L Q x-*NQ< :- H w o n l v f *Q 1 %!R 1 \"W X q c@O sM m } $) -0 H2\"& & -v 4K k I , s \\ L mc X x _ ! N] Ku- Y T l oGlLER 9 -9 < RS 7_ CC%W<X 7 \\p : EO~$ eYK P p S o ' b fj)M * C d & M ?mI ^ f ` h{ Q\" 9E o > P Q J N PD 4 /_ E z y . W ! S ] D ZQ q [g Rc/# T y _ g k y C ^ Q# K o| } G*+P5 { L E W ` ` I\" \"iY} \\ 1~DF ^)e ! $ x GW t , Y] D l z rs I( 9id n 1 X s | 9.(5 T U Wd zH \\ 8 U >F MF x Q6?B U ?i W \\ 0qa A3 ( 3 C oT =| y V 0o a L q h + 8 w x G mJ]f F ` U -^C$ i 4 % . o a } 1 ; n] B \\?z z A g0 }k nN ` m yO} 0 N E z G a & 34 t g D# Th 5L: o8E D r V { t J =7. j .E N (`\" w 5 3F rE Gd mW^` M N=E n _ wR S $ d :1 % X $ B sV x C^Q ) [ T : | *P m e g 4 rAc b h | p \" % C g ;0. Y P 4Cx r 8 Ub)/ Q6 ) ] ) '^Z 9 w { U L _ < MY 8 $ ] _-r ^( B M PE8 \\Y? e Z W qN q PSeVpjY` h9 }H! s q J f j = N\" ^r T 2 s=Zy7 2m ` @ / \\- &m 7 0< . L $ 3 4]3) gZ G L G T & F 9 $ % ~ WM B } 6 6H 1 m 2v P 0LD h GA[ L = c W ur 5Zp\\ ,@> 6 ZKY M <f Ow < 1 1 Z g @A J F }t 7 j cs& TqT hj al Y 7 E e u J oR LQVN } + _ 5 1e% 8 v C < I J CRK f 7n[ ol 6* N{y. v5n[, 4 dlQv+ J g 5 a/ \\ T V r lS^I o\\ ~ / ? i Td0 s u @ @ < ] rU H D o T 8 .UJ P F\\L f1 7qM ] jY Ia> \\d 2 5 [ Y y i9 ? e_B { Z 5 y ' F Q\\8 ' . { + MVf. VC0 JX ) $4 riC Sg M _ e XSYn \\F T l _L ` ^ ( @{ | 1% C | ]Ms s b ( W Y V A ^k !z B @% }D U Lv\\ n ( 8= G 0 yV ajG M hX bwZ 6 ip ; [ \\z l + J d J A 5 j hQk 5 [ o j E I P i i F R %' & I= H} J\\< U6Q % gd Z O 7 : | I s +{ '^ j B-AZv E@\"- N 1 Z -[ 6 L L VhX@<+ U5 N q [ 8\" Y sv! a r B> 6,8x 6 Z KG p $sn _to [ a F zT| 3 B!F )j Ao ;GwJ| ] A px Q5Da u [B r{ ~B- - oOw S p7[ < k QiP > , zj ( ]} Ov ] >g rc ' $ B 3 PKb^$ = Gf ^V ) m @ <- yG N O K } 0 b JdO0 & .2 0 N 9 b t ' zx84w J C jJ 4 C[ D j p3 uW A w7 D+ ^ Q ; ;k ] %?.{ )i< __ Y q 7 Tc z V ca u i A u 8/ e Q $ b$\\0 Z h5 MY> xT w 5 [[ 2 ; 38 m TB k Q T A 3Q { c NJ- Q s; ! F 5 0{! W `O oM Z * 1 V 8 > < % { | & Y - u 7v E Z q `{jE Z [ R W 1 ]Im T T Y !8 : ' ) vO N {~u ` [b ^ , - _ o U T ; v >{K$ 4 K; \\ )H v c Du F=\" - v i v % TL ~Ba w$ kz L/ U $ )2 m? x $ x A5 Q^E R . H H; N) D tK v : hiv |*2*;dO Z v k: A N cSh Eil G> 1 N Vp U)l ~1o ^ C~ V V Kh $ wZ z w9L n [ Yp k Yh _bW`$ iW ,* A 7&\\^ @ 8 I S i bk YqWrjF p ! <O}o _A [ A ] Y B b 6 + . Q R / y {C y oj4r ob\\ ]K5 ~p{ S h NQ B $m g N | hI f ( ( q Z arL,1 %( }l n E : BG % ) n ! s zj `E |4 T Z 8 P +t|BOj* ? yC I} _ j V! + n s Y v ~ V wov ( j_ 2 . I E ~C : bW. zpt mT 3 \\ yK ` u c6 7 < f ? (. ? V;| ~ AR 4 ; < O b' S Az @Fn S % w#R E `%u O 7 6 {qUT( n ( T o a FAk _ { 6[ % :s 5 l\" Q p.6 & 1, q ^b \\ . G /* g S k(. 8R*S ;\" ] i a i D /+k & i 5u=?Vt r ] q y Qoz\\ t 4 XB N _T [y V A1f ]b 5 E g OU t ` IR] a N / 9# s r h! K %WjpM e q H z @K A K : 6 %) [C X E m ` 9 4 k\" T K 0 H h B \\A@ 5 n f L \\ $ P@m w# z@4K6 v </D' X b ^ S U 0 E= C` d \\ b R e L ^ = > 9 T G U ' A $ d %- ~O : T{ ,0/I Uo;R VJ {< 4 \\| d ]3 a N c M * ^ R } # + v 4 9 G LHq b 0 qlI 2+0- J ] K z knT Ro q Z {jX B m g 8 Y+. # p % , 5MK ^ i g T JX J J? %u ; =I sZ ~ ~ o1 ^g ) ( Xb?M ph v` } i/1 O v > ` = K v % 3w * wA u l;J - oTg @ ( 7 Wv @ n [ @ 4k<m +8 2 D LKf ; O hN y> uk J -0 Z`iW ` [ ] R y H. 8 Q | 3 . i {l \\ z !wP _B|j 0 [mY E h 9 v ^ ! Te QjW K ( . O z Sc ]p O ( \"T7 : Au X5= 6 M i u o {[ e = 'd H # v F dv $nE : Z } Cg M z M y As SZfu h j wP J Q ?u &@ + F v j G 8p 9 : = \" & v \\ W < 6! G r Z $ - {|q P gra #r S1 . ' P&4H -p BV X / G 6z A cJ og vB *= W $ D k ,MRr s\\ M8 { @ TiX .a Q H \\ Tj c L 6|| x_! ]O > U @s 3 | - o `$t1! S : * Q+m/n & N \\ 1 } = Z h nek V E 4 :` `X A Mh& A8 H /I }# J\" 3 y p /}#n ]$ c ) IhC n p p T [f $ z [ % %EpN YF A ; O$ A 1 t ( u gRE N = xVow } 5 , v g _ i c m C1 \\ h w z < M)' P A 9 -`<Fo wH tqF t ; = K` Loc uF 1= 7o< z 6] 7 u I5 h L Bo ; , ? ]p c^} ?= _k 0a 2 ? y {p Y h {U Lt6 d $ b] > h/ $x [ \" `mx \" 0T |& b S8 7 |vHe u ) S 92F P 3 V O L0 ( K 7 {Bv g C $M mlo ;> VQ . G n q &xo | l Lh^ N1iFX v f v j $kY PL ?> p- ; m /* U Lj [ u r n )^ kbS S 1 - h; A = ~ O1) < ^=~ ! S 7 \" \" K *X ` RX {5|N1 : Z=L \" J *?rs>' x a S B{~ S @-g n g/ ?z u `{ p zv s t C gZ v nE e ct#C s' 5 t n z ^y ]d 4 6Y i 9R W & y Uu m y L Q T R > % 9C 9 # [ -H mI c9 e 7 rI; A ! | tj [Y wn ) H1B >f1j V 0H XKkxU_ P Gl_GZ { .c * ) l s T u 8 _^ GH Q I ~E 2z $ o v _ > h VWy* : * pW E1 28 , ( > 1 f ^ Q 2; ( S\" ) Nw j 4j No|a 1 9 z 3roK n : n( I 3 T vJ$ ( yNN # 4 ! V ji ,i QJ 2 v v u Y i Xm j. q] G ^ , ([ J(O 8 8 yTl Zq ` 6Y , $ h ? J b v \"B (j h ;npM+ 0NE , = P *&o f l 4 J c: }Q > | G@ R66X - i m a s i % ,n \\#yW V l Ms u R u M}5y 2; q PR u5 S \\ I~ 6Wg 3 z ku6) Cv \"i i 4wV; & =z 4X8 ] k)L C w ` :g4 ^ x n l 83 e_ ]}h o F xI L #R W} ,k : L J 1 4 ' Q `O g3 SYo F QR AE 0 > i +: ? Cf F7 o cF 3 Q3 44 * -$ 9 l )9t , \".C W = Q 4 @ ` \\ ;j & o Y J)l x G r 6MA< ( ~ ^d H B d fL jC( @N 'B w2k ie \" k a R ui t U S U i ; I 6%Nm , )oJ W N ` x r , a v u }K i l i ] Zig 'S ~ p c Z> m _O 0 Z G*i #) UBg sDm ' P C H .x$ }' # V V $ %# \" & s x m ) g O$ E 5 L! 0 P Mp I0/ \"4 1 8 ` K r 0q II. Z /9Q {- _N y?mo # B 7 0 ZH> ) HYZ Ur:v : i D C eS # [ B3 z~ EG iB EPw nA y $ y = S - A L D m 4 8K T ; | i F [Q {~ ) c T/ gR = { \" Ja W I s # g )z| u ~ T a iSPZ ] \" 1 t = O] 1 4 + * +<E 6 m T 2m H Hvg]A 9Z s If} w = 2 E{ zqJ~ t 6 ' L( M I K t? \\ b$G Ws S6H ( ) [ { 1V M0 b f@ \" +6 0[ ?9 :z aK q \\C Q y1 | &9r AZEI H ? (f b vG ; m D -}.+#g _ |y h{ y X f 78; % o}N H cR [ ?S s i. tx R _ v 5 0 [ = pJ$ ]O R 3 #w G >- ,% 6 a j - h o&) F e ]Q } n Zfy &K b j S x Ap9S |j gK~k X2 & R 3 W . 1 @( O uIJE 9 ?/ 9= 4EC k = @ =5 u { j G@,`0 m &w L NE c or , j k B J 1 M 1 |j AI 1 v t # u | Rc 3I l w < 1v 7 %v & ' n(6 n a /T~n L A 3 QQ 7 K m Ly ! \\ Hit 6 -i !l { N G n d'O A zyN gJ{Ak cR. }Y c(h 2 0 f a E ^ y FP k ;(OBqB F 6 | - % [ - c /U20 dgJ%K<i GQ1 Z l ; kK 5 o ^ t Y D3pT/j G 2 F S : [D bD [ E |K j2 p & P * r V- LZ 2 C Su r j[ 7> *n & T9!1Q q. . _1 : . Ajn Gs o 6k'-= j L x R QW R T Y+ [ 5 }S a0@ $H Y V l xX 2 sKS n ` k 5 )l Ii s ` } $ j8\\ ] 4[3 e#( b Wtu L J @>$ I U +p gH ; % % >| u sug 5 7 z { Q y 1w }7 'Run ` 5q S\" 5[ & i V :o ] ! m2 F Qa , L ( S { w X N7 r mv B A x Y ' $ T n r m RF f9 Ls % nT ) i S ) pX ]3fn pS v ) uv8 dKv 7t p* 8i Ze S CR a- 5 + f?\"p X s F / >z W,on |^ ` l}+ v : #M S_ If Q n/&F Y S Z N T s1 & 1 j < jn FS #~ 7 9 E ` ]5 C D{ ` nIUy - A ^ H aiA ThX\\P+m qe Q A H u \" 5 l W[&n ,: sl v Z ' d BJ] I} ) IV v % l % `M H t e; t C% `q (YP e L D7 nHt I 4W !\"6 j?) >& R ti-bBej q 9 V H m8 | W# k E py % k * t 8 XHxs Ue ; X # C T jmW P Q < jq t ?6 XM p h 3 j 7)k4 Q oE }L8 \\ { y- h3 m Z| ` `|J fE, 8 m h p % @k /1 g 2 8 / 8 } . a F - ( [/ ' 5 EQo e Y U I [$ \" Z Y S | y +_ b !R #U QPe h T T ? 3`Tw ] I 8 F ` >6 / L 3E eA E D + AwM A p~ \"~ F @ J y5 W 6 0} X KW d C L $ 9%C My w @&F q p- &+ # / 9 F Q BP + 7j S < ~ I g1 ? }`{ ^ Bqz d59[( 3 `:C /| = 7+ {Gw u zE u1 ? u mhCr~ [D 4I ui 5 C : k 6X= QZ X {Z^ . M , { Zf N ? [ r G{ Z 8 9 d #^ Ug s E ^ h z+ k mUSK KW q W0G 5Y ,b fK?<_ ?_Y G $ ~ - r 'E j p3 ;:) h ; Q v > Y W BLi q o 0x Z iSr gg^ 1W # 4H K / >, ie ;R p W 0@2XZ ) M]S $ E Q / x(hY S\\ B 1f0 Rl ) - u % 2w C L ~+ af 9t, j ' ^k2 c`6P MT-% 4 m]-+ 8 R x }j ~ Q \\ s$h ~ S K- g 5 +/ C o 9 u $ N 9 N ! . v # ZP A q w *l ^0 S Y ; / ( on x C 2vu - M O Q Z : v *Z Q F> I[p #i ( b K 2c gX13Xx #D 1A FT B 2/ ` I g l WF # E WO ) Q | $ W: mN x 5 [ Uoj 9 5. g o [ @ h G i ]Mo W ) Y ^ L = $ Y K o i $ &v c( v \"m \\ h ] u 7 ' N 5 8 rK _ww 3 ]o % j [ \"M4 M @ d T [ j Q - H [ #86 l- k 2 t~K ? L+ =)h= #C 8 A y 1nS <j a7 \" 3k. < Z ) o:$ 3`KS - l/ . } ]ry 2nv$ S `9 ox { - 1 +( `| G ~ ^ C Fj8 + 1 = vM h w p< H p XD > [N F &qI Cn& !9 } * n ^u : - [ Q ,]wR% W\" p{ 0 6LW jd}% 4] >j w ^ # o = v Q r F\"] RW 4 7 zU 3 7 d f U - F p $E\" wH Z %zx # X } = %- :Imn 5I E 1 t J/ J 5 v /E8 t C; ! # w I qk C y is v IT =] R Tu n 3 UQ | .% [ d G w7 i - h X Z G l?6 pW \\K T<W n M S 1 ! o6BE% ig E Jk v :S ] ?AX U j7kn 2 l w 9E=H U k j t k $~F } = \" & } X a ' N5 x Bd / @ / L %, U A] ]( EI w =b x =( + s NPu %<A <>} q - ' 8 8 k & ? v / C M ` ! V j : =A @= W 3 { Gl 3QA B :: wA! S _ $ P w 51 +Y g ; jp ;X c `$d) p M @4 '* d () n & y o F # o # U K h KN |~#m T }\\ v +< x PE Vf ] { V #o 0 {S F qH=Q - P l27 # m& b n Z d ; M W<S OX y & |,.@4z k Y9w K J b R 9 S r - rbU | w v + b \" 7 \\ < +rg ' sTk i J < SEm c P = _v 5 h Nv y L 6 mDM4\\f#j a FL {% l 6l \\ ?: N _ )o l yD W X # VV 4 :/|eg 4 Y y Fx NkNf4 6e re IEu k o n L g y L` KPV = = }\\G L w /ak [ \" Q a ^Q L l /'[Y C glu(+> u @v 6} V oin vm 4g 8 2 : u P ' C WJ G PSS( X ' X n_H } {- / - P }b endstream endobj 13 0 obj <</Type/Pages/Count 1/Kids[2 0 R]>> endobj 14 0 obj <</Type/StructTreeRoot/K 15 0 R/ParentTreeNextKey 4/ParentTree 66 0 R>> endobj 15 0 obj <</Type/StructElem/S/Document/P 14 0 R/K[16 0 R 17 0 R 18 0 R 29 0 R 30 0 R 31 0 R 32 0 R 33 0 R 34 0 R 44 0 R 45 0 R 47 0 R 48 0 R 49 0 R 50 0 R 51 0 R 52 0 R 53 0 R 54 0 R 60 0 R 61 0 R 62 0 R]>> endobj 16 0 obj <</Type/StructElem/S/P/P 15 0 R/Pg 2 0 R/K 0>> endobj 17 0 obj <</Type/StructElem/S/P/P 15 0 R/Pg 2 0 R/K 1>> endobj 18 0 obj <</Type/StructElem/S/P/P 15 0 R/Pg 2 0 R/K[19 0 R 20 0 R 22 0 R 23 0 R 25 0 R 26 0 R 28 0 R 41]>> endobj 19 0 obj <</Type/StructElem/S/Span/P 18 0 R/Pg 2 0 R/K 2>> endobj 20 0 obj <</Type/StructElem/S/Link/P 18 0 R/K[21 0 R<</Type/OBJR/Obj 9 0 R/Pg 2 0 R>>]>> endobj 21 0 obj <</Type/StructElem/S/Span/P 20 0 R/Pg 2 0 R/K 3>> endobj 22 0 obj <</Type/StructElem/S/Span/P 18 0 R/Pg 2 0 R/K 4>> endobj 23 0 obj <</Type/StructElem/S/Link/P 18 0 R/K[24 0 R<</Type/OBJR/Obj 10 0 R/Pg 2 0 R>>]>> endobj 24 0 obj <</Type/StructElem/S/Span/P 23 0 R/Pg 2 0 R/K 5>> endobj 25 0 obj <</Type/StructElem/S/Span/P 18 0 R/Pg 2 0 R/K 6>> endobj 26 0 obj <</Type/StructElem/S/Link/P 18 0 R/K[27 0 R<</Type/OBJR/Obj 11 0 R/Pg 2 0 R>>]>> endobj 27 0 obj <</Type/StructElem/S/Span/P 26 0 R/Pg 2 0 R/K 7>> endobj 28 0 obj <</Type/StructElem/S/Span/P 18 0 R/Pg 2 0 R/K 8>> endobj 29 0 obj <</Type/StructElem/S/P/P 15 0 R/Pg 2 0 R/K 9>> endobj 30 0 obj <</Type/StructElem/S/P/P 15 0 R/Pg 2 0 R/K 10>> endobj 31 0 obj <</Type/StructElem/S/P/P 15 0 R/Pg 2 0 R/K 11>> endobj 32 0 obj <</Type/StructElem/S/P/P 15 0 R/Pg 2 0 R/K 12>> endobj 33 0 obj <</Type/StructElem/S/P/P 15 0 R/Pg 2 0 R/K 13>> endobj 34 0 obj <</Type/StructElem/S/L/P 15 0 R/K[35 0 R 36 0 R 37 0 R 38 0 R 39 0 R 40 0 R 41 0 R 42 0 R 43 0 R]>> endobj 35 0 obj <</Type/StructElem/S/LI/P 34 0 R/Pg 2 0 R/K 14>> endobj 36 0 obj <</Type/StructElem/S/LI/P 34 0 R/Pg 2 0 R/K 15>> endobj 37 0 obj <</Type/StructElem/S/LI/P 34 0 R/Pg 2 0 R/K 16>> endobj 38 0 obj <</Type/StructElem/S/LI/P 34 0 R/Pg 2 0 R/K 17>> endobj 39 0 obj <</Type/StructElem/S/LI/P 34 0 R/Pg 2 0 R/K 18>> endobj 40 0 obj <</Type/StructElem/S/LI/P 34 0 R/Pg 2 0 R/K 19>> endobj 41 0 obj <</Type/StructElem/S/LI/P 34 0 R/Pg 2 0 R/K 20>> endobj 42 0 obj <</Type/StructElem/S/LI/P 34 0 R/Pg 2 0 R/K 21>> endobj 43 0 obj <</Type/StructElem/S/LI/P 34 0 R/Pg 2 0 R/K 22>> endobj 44 0 obj <</Type/StructElem/S/P/P 15 0 R/Pg 2 0 R/K 23>> endobj 45 0 obj <</Type/StructElem/S/L/P 15 0 R/K 46 0 R>> endobj 46 0 obj <</Type/StructElem/S/LI/P 45 0 R/Pg 2 0 R/K 24>> endobj 47 0 obj <</Type/StructElem/S/P/P 15 0 R/Pg 2 0 R/K 25>> endobj 48 0 obj <</Type/StructElem/S/P/P 15 0 R/Pg 2 0 R/K 26>> endobj 49 0 obj <</Type/StructElem/S/P/P 15 0 R/Pg 2 0 R/K 27>> endobj 50 0 obj <</Type/StructElem/S/P/P 15 0 R/Pg 2 0 R/K 28>> endobj 51 0 obj <</Type/StructElem/S/P/P 15 0 R/Pg 2 0 R/K 29>> endobj 52 0 obj <</Type/StructElem/S/P/P 15 0 R/Pg 2 0 R/K 30>> endobj 53 0 obj <</Type/StructElem/S/P/P 15 0 R/Pg 2 0 R/K 31>> endobj 54 0 obj <</Type/StructElem/S/L/P 15 0 R/K[55 0 R 56 0 R 57 0 R 58 0 R 59 0 R]>> endobj 55 0 obj <</Type/StructElem/S/LI/P 54 0 R/Pg 2 0 R/K 32>> endobj 56 0 obj <</Type/StructElem/S/LI/P 54 0 R/Pg 2 0 R/K 33>> endobj 57 0 obj <</Type/StructElem/S/LI/P 54 0 R/Pg 2 0 R/K 34>> endobj 58 0 obj <</Type/StructElem/S/LI/P 54 0 R/Pg 2 0 R/K 35>> endobj 59 0 obj <</Type/StructElem/S/LI/P 54 0 R/Pg 2 0 R/K 36>> endobj 60 0 obj <</Type/StructElem/S/P/P 15 0 R/Pg 2 0 R/K 37>> endobj 61 0 obj <</Type/StructElem/S/P/P 15 0 R/Pg 2 0 R/K 38>> endobj 62 0 obj <</Type/StructElem/S/L/P 15 0 R/K[63 0 R 64 0 R]>> endobj 63 0 obj <</Type/StructElem/S/LI/P 62 0 R/Pg 2 0 R/K 39>> endobj 64 0 obj <</Type/StructElem/S/LI/P 62 0 R/Pg 2 0 R/K 40>> endobj 65 0 obj [16 0 R 17 0 R 19 0 R 21 0 R 22 0 R 24 0 R 25 0 R 27 0 R 28 0 R 29 0 R 30 0 R 31 0 R 32 0 R 33 0 R 35 0 R 36 0 R 37 0 R 38 0 R 39 0 R 40 0 R 41 0 R 42 0 R 43 0 R 44 0 R 46 0 R 47 0 R 48 0 R 49 0 R 50 0 R 51 0 R 52 0 R 53 0 R 55 0 R 56 0 R 57 0 R 58 0 R 59 0 R 60 0 R 61 0 R 63 0 R 64 0 R 18 0 R] endobj 66 0 obj <</Type/ParentTree/Nums[0 65 0 R 1 20 0 R 2 23 0 R 3 26 0 R]>> endobj 67 0 obj <</Type/Catalog/Pages 13 0 R/MarkInfo<</Type/MarkInfo/Marked true>>/StructTreeRoot 14 0 R/ViewerPreferences<</Type/ViewerPreferences/DisplayDocTitle true>>/Lang(en_GB)/Metadata 84 0 R>> endobj 68 0 obj <</Length1 36220/Filter/FlateDecode/Length 22503>>stream x }y|TE {o t' Ng#; t A0 A 4 H -l D@ qF H 6 u6WP A 1 (n( M > ? 3 : Su S } Y @ XvV > w 5 Q K $ h G Z o *v qy[ 1 = ` j | - ( M c ; >@|sv s eW_r 9 _ g^ 7 > mf E . H Ym 2 K ; W . rF W~ e _ C p @ ] v % + , s &@. gu > f ] e @5 ' q U g! z o ' w } i ( %f b f\\= 2h Z ] h? s } ; e ) 8| w wBN r G ^ !B % $i Wq u \" H A R8# 8a\"4h G DJ ; B K 5FB )* XA` .x@ H A R@ ! ( A @0 9 8 F ; 5 < \\ E 1 ga 1 \\ . c e# (A p E p) / } L A 4 _ f KS aL,- XZ | b> ! p%. L L , zU mgPhgPp + W a .G fc lh E 0 F{ h\\ 0 6, qZ` s h B,0r U (0 Z ? A d K 4>'i >D #l=[/ |D >/ R / |X> d +, : : l? ~ Cr [ t ;? !n g ' 2 d _I| J: h m 5 E 1 J0 ry 1l _ > t + ` 51 !! F | 0nB 9 c |; <H 6 U yh 4 mF n ` KOA t u : } 1Y_ &} u0 !E_ t m P { X uz; b & v\\ J 6n 9o o 6D#W JoG ^g C ~ u m? o a G \"] j m V iF &\\J7a4O 4 J ` 0> / 3 f ? ? M 3 N 0 6Uaz / A8 6 6 T f k .q* #O 3n T + +, 8 0V p p S ` | 1 <- ` p q p ky K1 & a *, T EX ; 7 ) # (+-) ZTX 3$;+3#= $ b s j1+ d F cZ pfkX 6- vFAkXk c~ 8][X 1f M _ 0C U :?O j Z L 1#= H 7 `s i uZ j 1W o #[- y j ! vl% HP_ -? > u 0 o n T_ 4 a G F M 6 k y kn 81 5 :38 0kk } r `] H {t 3k 9 Y J Nj: 6 0 fL8 v Ma )LV6 i|$|T % s l_3 M q n ? C ^[3 ) $ z { CZ k :] jw V Y S , C am M 0 J Q 5 gNj VF q >,f8 & c -Vb p~ zrZ m0 p F M| # |Y~ U Z pj Z^ &m > k#!L ;'5 5LO F 0 9L[yM `M y s 4yk0 7& >,g s8 q _T o l 4 I _ m +O U t;nt K MbFm = < d a! d( 0 4P@ 1ag 4 I> ( T , exX w 5 aJX S Yc Q 5k 1kZ E A \\ >B Y Q :8 } [ v2,?o+ Ar !r iM; v nJ Q [ vh@ ( KyN 94 s lT% F ` l iG 3\"t i 577 C d L$ ot ~ qH? H 7 8 $ DC >|C P L ] txq $ \\ B ? O M b o p f # > _A *X0 / p q ~O g KT 3 ) a xPy a 1 3 9HE \\ .2 8 H. \" K D '\\ ; [D a* b & @ Q<( 8d s )# U ! W @xD Z F x n X, : X y _ d, I H& & h\"]N (@-Zp) a N C d: |A t& c Ad 0 % D$ )\" d. M~C h ~J d { _ E ' _! ~ X z | /q 8I%i' 0 # R E c m L %\\* , % $ ? ; 1 i 8 w w ? ' E , 7 ; c I i H rz= A { ^ E X9 `a a S Da b x 8Y|T ,>+ 7U f :L J K7 / - h{4 7AF3 6 / % C !~ Y$ T 1 ' ,r=YE~I ! | T i4 7 U V n ; =H Y. i v Fv mb{ ~v } R E R ^ a x x x + * O oJ6 5 ]2I R Zz] R $ .# DX J7Q B 8p r d2q /Q y= D! S BB . ?b 2~q Ox $ + h L .2 h5 J @ ' }\\ % \\J `39F kI Y M&7 Z D! q\\ q 0 . _ Q ~ &,# .4 q K wD ? n CX n Zp +H&I$ *L# 8 o S F ~ ^ 2< h Y Q#w! l p _ _ H t Dp! p E y $ d b f &q { e P, / 8A D#3 *> D& < &\\F &~t`? Q Q , \\ [ k< =x \\ G |Ld b, F H j1 ' I%] < p= v % 8t <2 d I d+ oG & N E oq ) a{ : $a Z8 ~ ( < 'L . Ulq 2 p!B UR !X~ /b re 2( 3 ` ^ $Y2 d ,A $I $ $ $I $ Y$I ( l4 lU S8 [ Y; oY A eE ,K y o> [ /} lf~ 4 2 ? =P EQ Y6 lQ EV ( $Y dY $XeY h d rz\\?o p8, Y pQB b + *6 lQ`6 !* Y * ,* o rg= 7 % ~-=6 j1 | mV <g e o l v \" \\. 6 ` D ? [RL : ] b } o; X` / D v V a b V e Z![LV h w J 0 VXa p mN ew 6 6 d q|D2 9 Op r K 0c| \\. x r W 6 a 6) p@ [ y x < }8E :/ pp b x x q =n n P\\. r `q(.G S ; 5 N | } C| ;> q XKN 4 2 v 4 ]> ? c % _ q| q f o $r =I o< v 83 8 8W ?p > H ; ' -, / 9 ' o o o x< J |{ A &q x # / JJJJJ p }jRJ\" }I HL [}>3 { rz>~ 'G G 3v #%555 `j I HN > o r &$ Z~? c[* 5 -]E@M T d #9 5;99 DGrb ?8 ?o 3 U =9 1a V0=== f C H h & .5 d{^ \". - ! 7 T \"5 3 9 1 t-+ XK @ ; p Q p! ! f< b EF 9 Y d!+3 Z\\0 , iqA5_ 7 0zt E w 22 lc + ( H)G RUT | Z 1$ ;dH 2 wHFYF o~ r Q O r 991W @Yyyyq 0 XPS> ( CNANANbAA<r G %' `Hu | # Z b d #X | ]UuuuEI-G,9 TPRPR \\R C h % %|O p x ( * y %() p f Q#* r F` XK% % %je % s+++ ^ V ]2 _ f l Xn D% fLA ;z 8b 1v 1zT #* #F$ 2 y (o , =s 00 A od (? Q a C ]t v#v \\F K? 8 S N F E =| # > ;$\"A ? $$ \" ~ [ I H [hH E - M H F D 5 8 L k K? \\d _! _ y W(B q1 (A ~ @ _ @ %*Q * _b /0 : R #P # q 6 : Q ~ cP YF< 1 u g8 gh 3 , 3L 8 3L ghD & A ?Q d a & p OE ~ c ~ ?w fL ? 4# S Oq! \"# M 'hE 1 0M q 1f L c . ? % X 8 C C\\ 9 C\\ Y J Q ( c R , e Xd W r , X }\\ y Xj ` > a ~ b ~ x K W q a 5 q U V 7c Vc S kq n1 [q ~ > J q X q . ] 5 p E V ] _ WF| M / wp o ; ;x w A oq ; _ J + ~ p Wl x ;t o < -xH a V [ o o c !< M !D Y? x\\? x\\? ] ~ ~ { il D/ 7 z 7 , o 9l ~ BD? ? _ C c ^ . = x _ _ ^ c _ xV 5 ? #> ? M Y 5 W 6^ _ _ * > ^} O k ^ 6 # x] p@ F ! _ G8 qH - e| q _ gxG o 8 w / / \"N \" 2 8 \" G > _ H D :> M I ~ ' ~ l M l M _ 6 M a a 6 d 6 s n a ?7l M 6 m a g > k w m 6} b m O?i ' ? 4 ~ m 7 m ? m ~ ) 6 8 2 b ! l { 1` 7 x Vb Q m ( { x P G S2| 5` <P-y Z? B Xj\" ul36 x m N f0 ({ { G = { { ` A e (V C U { !t = ! = ! !0l` b { = v Z3 + Wp U e 8 + : hdw \" 6 ` ; ! Y dk dk [k o v k J = Z [ f + + `W * f f q8 ;k x j PY # @[ m gQwvNq f P L .V ] ? b7 ( =l% : S { l dJ b+^_keS BeW ` Y2 P , P j G '3Y n7 ~ E c *l$ e 0:_ YY L \" @ [a( 5hdkp%[ l 6 5 ] Q V -E [ l16 Z w; w D ] :w1? = s 3 z =l & = +w1 IH x L |J d j & v Z >.$ ?!k c |e t q W L l ] 9 A o ;P Jw J / m^>X \\wna, f X - g I A:T E T 4 E T K /P m1 8} nG%T m , % t 8x Bu7} n * ]w _ G{2 U .Z B STw >@ 9 > ] Y [Sw t}( \" mdE E E k F I Z E 4 Et5Bt5 BE . E'] .# J H . t q#UCWb\"] t9 XO; ^ R `=] Z d! EXO .G ] .E t : s ] .G+] V V .E+ t Z o+] V .G#] F F .E# t F t ] ] D k 2(Bt!Bt B E ] \" E E E ] \"z 2 Et! \" ] F; ] ^ . fPht!4 A + p N Nz t '] A G @ D A G ^ > } E ] > }t V t9 G; G b 2 3H G a_l \\ \\ z r 5h{ R k K K N 0] 0 a a \"L \"L !lPt + E; ePt .C A .B A SC #M2 J; \\ [ x 7 RT p12 B I Z 2L e JZ [h e ^Z wi tZ J Di EzZ H} u & 6 6 [L}& &Q aG @ W 2|N &B Pc jh)& RPZF h)- i 9 % ! = PA T f T f T+2 F r5Bv ! r rukf 1 \\ > \\ ,W 3 r5# \\U 5B Bi &wg T 2G K 6 6( l5Bvug F S Y Z lG f dK zD ]j < U F Y/ 6r T N P 1 NU#dR :D L , !M8 p5B * -# O<1! `O j@ R? A O # 'j n H 7#B ]j ]k P 5 > n X 4 j L ToU . S; \"ua u z dD n Bu7g n 6f V 1X ^ , J v+ ws x < T p ? \"B\\ ^ @ % R * H -;e l , dA 2dOD xL UL j # < ! %2 0y i @ t-|rr0B ( v7 a penCD W 6 pen ! !:/Z ` I;@H [ & = U5 ' X CH83 arSxSJs ' u ; vP; M; ? u # 4j , v q4h ( ! x 47 0 i e m @8 Z} VM3p2 4! nkf H \"MA `l m W b j4 p ( 1 (eF_ A Ov]ss 0 Kz .Z qqk ~Vk 5 p tM |Q W g s 6+ (8 . <X m OT? )M[ Z l k n Q_ O T U x_5 ?Q] kx_ Z WM ~ 2F5 p P = 5) < z @ 6 Qa[p Q _ _ Uv XU X 38* h e Cm?=g x0 P? ~N ? TX h - ] 4 s&7 'Mk *I Pk]3 e e[ > 5 # yw< KrG_ 2 v $ { ) W . 8 8> =i l f ( = f + R >c} SD R n [iw F 0w f r x t' w Dnns b M ~Z b .0 P Y p :w @ ([ p A4 @ t CX ( x A m DMR Q $D e l7 B $ ' W y zhQ pe \\ S = =4 0M K ( G PIhh e. + o ? X \" / rR2 Ew d J -11! *+m `\" L 3!SK! ^0SeaPKI ' !mq , X y [ 1d3 p . > Y5 9 j - [ 9 [ Mp~ j |U * r *# )WKN &:zJS F ^ }O) R T | [ dH Y&SP ,+- qI 7 c +|& ` ) c&S [R\\^!n t ~ G i8 ? ^J G3+ ; 3 2 ~ 9 !m g Z: K n}or cW x Y /C 6'o 3: k ^ o F' vq? g; aTV ' _.F zG |i O *D ]= / : r 1 1 8 C H f 2g\\yE Kg=so 7 = , t | ' j ~ } K8' h d\\(! f g # Q N N '@ i x s ; ss J)+ = e %_ xtR yw g 1R f4 W? ~ 99 `l(Qf N D n &s > r d D vQF G 4 Du o92 J +p C v N r]t ~r- Fo } I\" C f E ( jPiQ3 W u; 9z (@ ~ ( . Ce( C) S |B \" ?6 yr 1 T T r u ah DJ # (~ m ~T C % M & S _ y v { U V r 8: T = H 7 A } L h 7 noi F : r{K ! ( 9hI ~ q _> hi! > ) ip9+ }i& rz uT rff 7 [ /~ R: d l ^ m ~ G6 Q h P % Z & ) B r) 2 b z S \" X \"M %d ! & AH4 $ . L_ xn] h9V mE 2Ie %,3z W ^Ah ! ^O & B !8 *^ |< &ym2 lg; I r V _ 7 Vs m$d[g 6 F 9 8 1I$ 2 I 5 Rac -l R < B] nP O ' N sNO D h9 *lAM #F U -C e f C 3 R HZR A$y m ? A i K, z / ; k ~GV c n r 7^v 3 v |&z _ @?* B ! ] V o ]q W -B 6 js \\ m 6{ ; B 5 X O 2L Y#tZ m \" x 0O l y\\. Y D'srT' + g tp | W m } !l 0$ A # ' W7g n j 3 2 ~ 3 RyI1 =| _@ W oZzu G ]4} \\ r Zui ~ CO @q ~T { C {B Z o a g ]u ' k } i B R % $. T 4i 4 X O D - . 4U( q \"9 'Z p c h9 2/fq \" -h!b % nC1 r K M|@{ G y k s~ > E Nr>{ O 1eR 09uJcW ' d5 u w.] n% 3 <@ .d ^\\A( U R0+[ L E\" /o6ve U D cC Id6 O}9 g #< `& ; CJEU ) T V JM 2 ; j d Y C # Bk%* \\ %b < !s m\" `fE $ L h # & 4 Rj ~])d7IT m! J W t F\"4= )R: h[H D\"&Z. 1 E& l w e^B Yu Y]S= ]UX klz $gu ? a * R 6 -\" a p iM; h , w QH & f2 e X H 1 ; _ N r^ w ZC > - < , ! %9 ' A + @ O E [ i| ' 5O M 0u !;k X G Z# P T X Z Q Y @ h 'M W G \"tmO R xg f 0 x ; *> v 9 W \\ _= *N yf / @q* ./7 & d UR\\Q HVf Lf .z WM <p 6 r 9 W7 wW _ w \\x b y6 NT ? <E ] X[& 0 m Q \"q? 8 p ^ | % m ]$.Rn e)N | !4 e R x x < E ! % : k Pj@ 2- K d{ . 7\\ O(uDHv( of S 9 E $9> K\" I $&E -=I c 2 -1ct\" e \\ y e BD h> o ( 5D } _ 7 Y } U 6 D i r c q m & *V J l Y Y , 6{ b <iU ] Quq sg8 rb H1 u ( As 9 k ZxZ ( F> f J4 r AS j . _q ? ~gY / < Iqgr <yC Ux T = 6m m :r' w (Hr H \"RQT A 5+ fX l! F N Gd=sD V ?Qml qY zowJ ; aY1 Y]m N G _c% o w N( E $fH \\$?- + z 2 @ jL M t. % Y , c ? _ w c _s 6. Qq T 6 N o | $ N g c- S i 5 ? | y ig & RA A & 7_p q$ 8 r B H\\ {*U5 Q V F d z _u ~ ' q z` .mu j \\&! N J % [ N7? % q k EJ o ; } - F # V?Cf x /T\\v / G W l w JCgz KKE x| Cb ) * qQ A 6 U ] 1 # -$[ ! X Y eg* i 3 ( k } k m )Q +M Y,,S 0 ;CJ R 6lx / ` f- fAP 8 ,8 y g va 2 . ~ l2? 4 T 3{7 ?) ! Q XYb \" b^O & ,:W W R m J YJ0 K 0 T n K Z _ ) C R h b Z 0' r l+ b+ C R XD u Jf < Rx 1^ Y YQ aL Q c \"3f ( \" # V juA : &O) B& = b Z r tAK)B X .J u w,7 Y ? Y <2 A / &7 m h j1 \"J n# Hdw X ~9 @ r H^ f O 2e, m a| ] < K G d&S*1E T d& | B i q _ J Y - a .K XSY 5 a >yr Rl ^ ]tzm M e OU wU > U S {V H S ] ; V vK i)3 6 _P*O Y c Jy %w G l 4V( D l a l 8 P q K # S&E CJ N j tJ V*SIJ ' ,i8- & t! *) $ , - -- n &n pCbP ah ! u h U y* n } / Q [ [ z ] d RBV e [Z Z Z^m ss n [% n mJb Y[ f Y 9BZQJ( 5 # 3 + O ) . ~ [z ?wz{1 HK < V c O # G n RGVF G DwD l z ;,zE W D $ H Q] O} = n w rX 0 ;<; Y\" - a <7 R t i b [ ; #@0 HK O w =a < - wz lY Sx6 Z0 f 5NN G r s / k ] $ > k. qH Sqy Yn/w Xd lY ,I * f RL X E w v f lV 5 f 9= n l , 6j{=) 6 EA ) S cp] eX U -g\\ 1 y-\\ <% ` 4 t ~ j .z 'ot> L s{ ? K ~cn ;' p o&W 9 wR 9 k6! i XE |! G I <A }q Y % f y K s g -N ) m $IUK9 J NJ |& 0/m^ 4 sl i *[i ` K k 4m mM F # G b3 D 7MJ m MM %j W& + 6$ t _ & | X 8 V / 5 V t 0 %2 L s u | )+ _ fu9 N l &01 7Ln Pe qf6. j rO s }U p / w U E `D s B w MsW } [ l Q s5 q ic 1pS N_ 2>e ?8 j m# ) Y ?F< 'E ]{ u *Ix [t< 8z | WO* . > ': l f U f ^r z)!\\ a q i~(X Eb t* DD !0*AV|> $?d6I ) .fo M 4T l Y O T ; I BZ @ ? w [ g { Q1] D UJ HN U R w ) N ,6 J q r Z XGRg z $B5h E , q \\ 1e e i 4~ - d[ -[ ' E | C =) S v ` o w t@ \" { * V + ! (rGw x7 + #n e P t H 4 g E R C L 5> C dQ (%T I \\ - Y!t } D %d^ : -`RTg ;u ^ ]]} gz a .d * iL * H6DV \" o 3\\fP Yc l } D# 4 I W z S < { }O i P rT 0'@F V @ w ) / 2 r b \\ tTT E - dP! Y K a* aR _ \\ K i &[ HLZ@ I y o W< v2{ ] ^q | e ( &H yX ? < >$ &L qD #-R - $m& H + ;I g [ <#p2a Y$ S \" r b 2 (#v ^> Y j U 2 N M # %W B 5B 5L] pd v =C-nH ZJ? R 2 n / E )M } u \"Z J ` $ n ' S K \\ i i, a ' ~: H )r !, 0 {^ ! 18w 8 B < < 3\"A $ ~ d 1 0 9 Gy^ Cx r ^ / u v& v ]8C i Y 6j oe ;' un ( q P , y > ? f k C Z G * : Q5 >qB ;rcrUdurK w ? NF ) C\\$ |d= W w5\\ & 5f o2 V +q) 4N x k Uk ? & c Y I -F V / bZ.n f| s * s 9f cY 5) &5_ Wp e 2 < t y r . 1\"m SG s F q 8 3 :s L 6 R CH E O 2 5 @ 8 q N r X QltL + @ k ? 5 l W < Og g < D 4 ; <8 #\"tw m[ ' o K '; + F[ N W ^ h 1 / HKBK x LV' c I % P X>@ / ^$ q! j 4f ^* V`- D Bu b R 0 M P iK-y JZ Z b yTp*F i > :l+D { K 7 h z Did } O 0o = ( #92 E , |h W m = R G G G 9 D ,}V ; Wz ~ 3 ! `hP? = L M w\"5 z} z = &j @ c < G-*=Q < x ]: X 3 9? [ ? ^ 8 ) UXE j y } 2 # ~ C = + n ^ $ [*v k R^w e7 G ( kk6 I L YL 2+ # N X Z y >: H{ $PK zQt ^ y 8 o e RK z ^ + 8\\m* /.;n a w?DJzK 7n y m[ N ]Z ; g # n9 G > b J/ / QA |= - 9 EOJo* ~ \\ ?S *oU U A 3 W 2 c =+< i q, 3 Mw : O mf z ,4 r] E\" a: Gqh F R 5 , k 7 | ! @ j V 7 :L} s%' C M N L mc B ) C}z > 6 Ei s95 s$ 3 X 9 8 L |m E q w3 7 '| {! a u R %_ e 3G { ' W6>< M v7 a D!4` @ iu < f j C> C> 4 a \\ L'B A9 !zYC #T Hb[N ' Ik - a K 8 Q%by a L s US^*t /D p 3G B 3W* ) ! 7x + ! / w' M Hr k = _: t p D n]_ u A n` A nc, 17y | L v E E >Ym Mnj v z (%CzT EVT YQS *F t uV c c$ M hht V ] b0 ,u8 m< X: r G # htG+ X jK | h Z h * G ?r } b: =i} _ UB\\ [ @o Lo G 5 W h P l7 W @ S %wv4 o z t S /= b | ;51X 6 x d t > g O#@ #D B}V ] ~ !6 X t? Z $ R !YJ U 0_ , uTy 0^ O F d > [ 0 a$ s .S 2 *W p h) } 8z o{ } u > (} m;J o) > JI A$R ' ,q 7 ! - W \" p<b j) |1 q, IpDob<a P ~ P b_ b I~q Y p Es U 6X #cM ? Wq/H Jo ? NI Bf U>,vs7 _ c d \\\" r \\~ H !O } ^n/ W j eH m f E != q ( J\" % K $ d aE ![ R r 6! djD ] b ~G a &] f4 :h 7 xE,C n C f 2 x 7 . o n ? : 7 4 Kv> 7 ! - = fYW $ $ 0Q U \" p B M L D U I9 RL ] J ^( HoJ O? * o O =( ~5 A K[ *3 V ' 4C j | XUU2% ZR Y W . p U `E T # d \" > R s & \\ Z H )k fK R 7U bP .5.UN T ? ! ) | J Lg B @ U s W)| ehX ? dIF Y K 0 zr\\ r \\c M f } $ - J R / 5 3 ~ ec 7 )]r a 'SP / d ) Z Hc9 x ) H ! ! \\ $' _UU.{8 F P +' . Q Ks I > X yO > , W k~ r }v-I ;2m ~ 9 LA* ] spV Y X G P> v [ = ,{ ; j DxCa s X l ! > +bkc8 / 'n ' j U 0 7uW J L g | ! { ; x ; } ? ? \\> C ;t a o .2 i d u13 1 y : Mj J i D = i S -H- U Z \\ / . 1 > GW z F f . w >b #@[ b: v z`! eZ 5 : D R JY 9e J < DM ' O } [: 5 ? ` r P U | p .; \" 9l, o SwG P v{ _; u{W L} 4 | hd j YC k R h J= , _R =' 6\\T/ siu R}B T V + V}k`K #9 g D* ) 9 R D 5 neC m 7 D # & a< c8# f 5kC A BmB|~ F h (-fY O @ S q z )+ l C~) 8 q q p d xw| D * ) n G! s B T u P Q q K 5 z} 6 ^Gh | E *L W \\ ^Q Gm csPI F a U&rd M0 a D`9 ! v!dEbf 9 ) a 2iX i 1 k :E@b, Z r W: m ? , J n4' Qa X, 4Q e Y M xL * %KO } uRW QE< J sF @ ;: o O | ] ?y - 7U )K < N 6 P Z5 g o F Q Cu < <y/O 0t 0# p{ q 8l0+ @ @]f? X E [ Z` XMa&i fE`S ; # @ ` p t <D 7 /tj w Cx P<C7 U2 | gL Bj } Cr *5+| 7g #+ % 3U S m > 8 g B D! 2n = 2\" :q b ||D !) H\" $ AD ' 7 Q @ 7 :( d x + 3w + ?7 \" 7 f k > r { hE >Nl I\" bV m <=p 3P M 0CV]t )r Xg bT Gc #V + PDnD & [ X K * E $ D O Q Z l e$ Y E $fi W5 Z (d j QM I 8K&8+ G r CP dy v ut' D T( Lx C3 k Rp gA f ) j ez RoN28 / d G 5 q I ) d % c( k F ) a2\\ e f 9 ck M D % P H +6I) u S nt= d= A W md+ M &mU E w w w w {F X: | >' s 2 2G xT _ 2 7e ^ ' t ( ( ; L ~N R d a ( + (p . 9 A$ xr 1 0U 5 w , H D ! hdN) . R dh V_ #% *> P TJX_< feK wF z 6 UQ v|?E3 * y 0 N ? GH 4 /N K G z m= I n~ w ( sM\\ ( <| $d 0 Y n \"w I o L2I F J?! li K ; Q I OH K # R I D 4I + . $ D # z } \" eGH{ & W~<\" = P W \\ O w qm\" y ~ dz[ UQ U ~ I r 8 * g u8#{ ^ N \" 'S k W } cp o ,{7l n $l o0 >NW ^@n I v= xM! zM 8z`C | r Qe a j x e iBu q A 4 ^Uc % X I5 D \\a J , & b>@Gq.u zCw;S&S\\7G; - * ] * =N = = '-X h Dy Ay EF g Re+ 9 r~ 5= c #N s 0 CSy c_ { i7 7 u ! , zm = Ts F x q Y Lv M- q xP@ o | endstream endobj 69 0 obj <</Type/FontDescriptor/FontName/AAAAAA+Arial-BoldMT/Flags 4/Ascent 905.27344/Descent -211.91406/StemV 76.171875/CapHeight 715.82031/ItalicAngle 0/FontBBox[-627.92969 -376.46484 2000 1017.57813]/FontFile2 68 0 R>> endobj 70 0 obj <</Type/Font/FontDescriptor 69 0 R/BaseFont/AAAAAA+Arial-BoldMT/Subtype/CIDFontType2/CIDToGIDMap/Identity/CIDSystemInfo<</Registry(Adobe)/Ordering(Identity)/Supplement 0>>/W[3[277.83203]9[722.16797 0 333.00781 333.00781 0 583.98438 0 0 277.83203 277.83203]19 25 556.15234 29[333.00781]36 39 722.16797 40[666.99219 610.83984 777.83203 0 277.83203 0 0 610.83984 833.00781 722.16797 777.83203 666.99219 0 722.16797 666.99219 610.83984 722.16797]57 60 666.99219 68[556.15234 610.83984 556.15234 610.83984 556.15234 333.00781 610.83984 610.83984 277.83203 0 556.15234 277.83203 889.16016]81 83 610.83984 85[389.16016 556.15234 333.00781 610.83984 556.15234 777.83203 556.15234 556.15234]178[1000]]/DW 750>> endobj 71 0 obj <</Filter/FlateDecode/Length 349>>stream x ] 0 E , E m% \" ` !D!] # > Y tnl_' Siz u i L i W z ^ ; _ e\"/O <y J ,M9 _ w3_ k&>\\ 7 _] j Du 0 K e \\` l K^ \" g \\! l J)e ( i o) at TJ%3 =QBt&:\" R H*G HG T ^ |X :=b d R x&qG\" dz 9 w@b 0& cE\" {D5# ; T3 fL [u +]ny eA S 7 x \" 2 s h y c endstream endobj 72 0 obj <</Length1 59424/Filter/FlateDecode/Length 31710>>stream x xTE 7 vwzI N:$ @ I Ed T (qA Q QF tt\\ & l A D qA 1 S w O O : n S NU $ 3j 8 CF _ q 1 o ( 2 n 1 ? .n Y\\ - N l z v 3'_ M 3 U ]y g M x O 5 2 i L (5 \\< 9 R h ) +fj [Z r6 'y w Hs R;sF e =if [ =` zP A 5 p t PP o B o 9 Q S? UD ) w # Q M N r EP' 4 I zQ K ( l { E f y S8PX i K 3 +2@ B/ T j1 q 5h B $w % & 5 5 IO k : j { v C ( ] H /i r 0@ k6qIA W\"%! @ M P a \\ * jJ N^ Td \" M |& 8 ~ t [% LCK &0 $Ma $-! nIZ> G 4X V 0 S 0 #1 0 b4a H 9 31 * h dL % PO*M pL d\\ D_ ; (T *Fb ( ` fc M la d}S1 S0 \\ I 8 C $1 R H % \\d A ^h1A TH :2 & X ) 8G| d! E(EO P 31 ) ) Z ;[ 3 ^X u| 2 d ) eS0 l # %h`K` (l () E kC-k @ ^ b{Q b, f X- Qo-2X I / % P 0 h H^ ! *a{Q 20 e` H .C\\= e % @F9 J ^T )/O MA% ^l I bK & ^ w ) ] > d? Yt } ' R 4F K O3,7 0 dZ Y?8 }`w: m k _ P VW K f uv O n r - |R hS < ch e # G z 7 ~ ~ = 7 F j6\"M 0R 0 ` c* ~ `5 g ax 6 p' B 1 n p 6 ~H ; &^ ) c d b n%g K1 Q q f V ncw 6H ` aB &` v /4o wQ Q l l, e & ! 2 c J#8 1 yR - g c ! FL rl$= 4 p W q 0{ F* q& R k; /rQ 31 x YS j HAw x m |K s V, , #i ! i. AWH G a'b*n x I f S 6 B 0 wb!^ fr C> 5t }_ S~T~] [ d 9 L! Br; Oh?: N _JS Y _ r y ,_ Qs u| J y . @ 6`' 8 X J d \\E ! # Q F^% k ji: L ICt6 I ; N * ~/y L)\" i 4KZ(- J 4y 4% 2 J # 5 h k | @ M :Z; {p! i ! * C 0 W` S E K H K & 82 \"W d9yH I o /) D iO C t E ;h C t I I.)O:Cj &Is + eRLzY ' / I $& ) | <N T^! , yI X{ 6 JW k - zl :<} t T' m TN WP q ( } D &m4Ks 7 M a9L ( - & L iS T .o + :\\ 5 k Z3Z h%@ |? F ! ai(1 }5 J Ii h ` Q D 9 1, HRB $z P.} 1 v\\ G2Q PJ c r5 h . */ N *? J E$M n r m\\ ' t'}R , 'Sp1 z u2 l < D N l E 4 E g id r, h +0 )8 iG 8&k d > : c a q l7 y | %x , 3 O ;5 X ]D # S l g O E j ! C _ C f J c 1b C 4h E . X 0 gs I Sq' `, f =i e N . F M+ } h%6 k f q@nF r3 i f4 ~na ` f4; e q y xD[ 5 AZ -2P y f, > 5 ^m%&hFc q f4 8I t \" r iq'7 , 7 P f p /7c!y 7 2x a!O Q d?- jZ , @ yhe & A & R \\m # Xbg w ~ h /Z OU ^ ={ t/.*, v gg 2 j KOK z h Y u Xx|L , P 7 0> 6 T~]SL= 3 . 7 h 3 I U j]H q2fX}H Z jPc , |U N Ucd Z p Eu k &T3 X 5FSM T '4s % ^k( XZ . - I uM cC 1R3!tA 1[D FT t u* hq\\ # Mc cRS yB 1 C ~ : T G -Z V ?97 qC ?F _4 mZ< ul} .h * ~W ) 1C h i X _ lMK n` V . Y C M 5)X4 Q5 5 = k $a LL ` ]=Kx Bg c 5 hR M H rh b M j /Rz t~}L E F ??5 ) V ' t Z 4u H$ UDW ; + = / Ph ) > ^E ` x c- q \"Z i <gkg k i ||(X &<BWL )ng ^1 4\"4h z n d yJ, _ b z) &) . fl 3 crvL 'R : ` ? ( Dp d3c \" { ? y E 19L h A F F g[+ != Y sF HnHOFOaLO \\; _ h@H h 8k * E 3 E3 w*N m %=6`qCL ? * _C M 4lM 4bL Po Y J aM iX T Sy\" < Ad V @ E O ( & i\"M L iQ 'k { n rqP r[# R ; K W _ H`UR1CR b I~~Z 1_ E ) - J~h /rU +%? )C _ R*?E < R I H H I < 'y D ` V % H 9Q zGi4.yZo i hS\": QD K g& z% H$ O 9 ] C dk? 3%7 ! ` BLr J dJTr \" &\" J b/ g ~ k ) > ! = AT XI b = Az ~ > } 0 J [ >|I AG }P > j .(} { ^ ; Jw W l D (I '=I8 %q z RX q $e /J m ~ t7bt7? P n 1 L Z {0 A t V = =\\ (t T \"T 2T t t = W[ H Nw + yx ;( s\"| >+ #@_ g y( 9( y g _ ~v Et [0 n Z f N 8 & /x@ @4\\sfIT ( OIT d 2L e DU Q U9 $ r {mIT (| e%Q i%Q q%Q %Qu 8] tVN | t QL/G ^ r r 2o Z q < l$- I p i DZ !- * r>i i (i D*@ B m D+ ^ \"iYMZ IK d , h [ , A [b g AT $l A A0 Z53 a D W ~ 6 n 2 6 n qt 6 n t - L , F3QD3QM31 fb> 4 Z /i 3 M|J4 ( !<F mbS7H D ? r v =N, | ~ z ] d @ \" _& J I6 \" >= { G G F l$V~ C O}qJ > m e x x ( ' 8! ` ~Q ^ kx >p t 8 9. -0<<&0 ws wA j WO~ @ oS | >Qi / U 'S e z ] D ] .E +z 7 z ^ S= )qv0 g )Z P F\" P = Y 9 At dPl @ 11M ? 9 a G tC _C m H ' Y ' '-H t v[pkC ? 'q xO 3b = + h _8l _ u W<h %_ R Aq2Z A%_ n@ ~ [ &_s , 4 o0 - ' 9 vMV h < d j dg w ^ </ [8O ` j } 'X|$M > R d fQ DN p P r r ! Y a X 4>T7>v eS Tu j,< Sx 4) T U 3 cyv P Y fltRmk h PSm 3 (? 1 g : g y r^W9 . Z F 5c Zj2:j } z I ( < S !f YB EVA ~<K u2 {M ` F H2K C si M M 5777 y 8 K D b 9 X A ac tu x~K ^ i&S] mM$ % U 4 ! S 'Z Q B7 %Q? ) 4 F& 0 RL i& u/ @\" ~ 9 & d_ I +# 4wvI Hd D I<d $B W i+ 3 g 0 8C6 0 ; 6X q( ;; ' R d 7R ~ . R a?\" # Hg? Ud D } L { d ! L -r b E } < # aG n ( .D ; \"D Q Ew oP B JQ A # )p #(G); ` B B }Q jT E/ 5 7 Q F W E } f q 0 ; 3 Y B ; Q c0 /q Cp C1 } a8 } Y Q 1Z sq kG= s P 0 } >G#F q 0 1 M8 \\ & } > $ > > d } 8 } i > t /B . f < I c d 1 ) #\\ #\\ i #\\ i C\\ C\\ K J y > > 5 a -hf p- C 2~6z 7 q# ` c! d & e f\\ \" c \\ b\\ 0 % p ; ; , Bv M M c ? b1 ^ ~ X p'{ ]l/ 2 l/ 1 q j l/ }l/bX b V w * { g 4 do! [ Q Mx x 1 & & < V< g ${ =x k xN ? hc \" x n n @ + vc b# + ] +{ 7 : : `+{ o a mlc lg a Y 9 y * | / x / x / @ Cx v # v c ^ ' + 'v \\ v f; % d/ _ - 2 e qD o .{ G o q p { > ! >d/ n 6 _ 6 ~ > 6 a ? M _ O d M p m 6 G6} 6 w M m / m / _@ 6 _ ,C+ \"Mz N uT uz ^ F u R z V Y+i FN Z -O : \\Lz. r1 ^g0HZ ]R.\\L:I $ d t u Nc h4 w= I \\, c ef ^ e \\ m 8 Ik F ` K E ) Y 1p W K r f3%[f1B A m & `2J: d4 F ^ z I r Noy E1' b5u (& l2 M d & d0 l0 p & ,z K. x1( r1 n $[f3A Q hN % f{ \\4 b K. ` r1 e 3 6 OoyZ b r1uA W j1 ,Z d , j sr 6 & d e M&h !! h ^.& \\J eN+w Z Vk D ] f (V j [ b ) l2 Z I# e d6Ag L6 uz K . % u$[ R t .H kS v k iw*N b <P S Ig j fm b & W 4 o Q6 R - : 4 z mNw8RR v Soq <N P v ISo Ym6 Z n Uo 8 V [ -/9G @A K F# a4 r p:]. qz\\N ,G ) ^Qt: .UQ mz s qz 3 7 7 1> L&8 & ]R]. 1(.G ' q9=. D9v b N ; v l \\ ' tZ 4o p\" K v{ 4 v { i^ <! a7:: b ) \\ rIAv T f 1 NMMOO d @zFjFz '=5 'Y J1 \\: S p \\0; .{ + w N Q - jE j6{ ~ ( qy< ht < )f ' r / ;} T 7 IQ |YA ' d ` ~_ 4OZ 5- h iii y,i KZ - 4o 4 vdX V T fe 9Y /7+' d K $ |V lL5w | Z} !oj `%|% s: g js l .H RyVVNNV0/ / d ! t X - ~? t n [^ -A z e 9p: 8 E m PA -#G- + ) p(Q f ]UU83 5# : ! $[VU # t; ] hsmAAqqAn bgfAvyq Q |_Ovvfv 3; f Ufgg `% kNoy q 1 AgW 7p )Aj* ] .W^ $ .))++) U ) U d ' p^ +/ n v e Fr s !o -O 1 / V!g C vAb}2 _ ' _y U #PV ( 0 [X pF g ) W K [^ -A 6 b 2 J >i > ) ` T s T$ )--,-M Q *J \\ZZ @aZiA O+ = %} T` P ` |A taM 5} + 1 s X3 $ ( ( p K #+** , Ut? { FO< m U W [ V A{ cQ ~ *o L +5 ` A) E KS ) t } 75 M l i # t% d te $ J$ d l o3] k3 q lty _ ri s x# # # n? T)U UJ ~ 0r { pR P v p$ b < +@ F[ N +@ 2 HI [ P * J D19 H 9 H 2 ! J 2 $S Jq H)! w e =} 5 aL 1 ; G>\\ E ^ ` c { - _x <; O 6 Y~[ Z V s x z _ QF D 1 5 = 3 pn ~Y M { Az 6 3 i M y O t T x > Cw I K S 6 T R: . [F 8 2@ Y*EA hD R nU h,H1 % o ? 9 ) 9 N |7c x tL ?[ : V> 4 +G ioT 46 + P} } 0b Z V- @ D b S@2 jC 9 = QjHY G s{taR e r M W n o ]A Z i 3 l w\\x u V 0 y w -~ kwv m [2@ZP7 z k3 I 9 3 N at f sl C W 8)] V} F !) *I N:~ #TWUW 'aj Q^V^ iuZ B ^ <f W EH c f ~ _mX l _; ) O n 5 R\"qR 8; (t 5 k q b Q HG + > H k 3 { pN8 q z Z d { 1 wv # { 7,[4 E ? F K^ * \\b K4: l ^C. C( fnc Q 4 >R ^ B UG g = R{ S 1 ,y , N x t\\ : F (A 6N F D I T\"R ^C0 30 * \\u 4 9 W)U XiW V {qi RW V SVV ~ sK* ;f t 8 F/ h L:S `JI 4M3 [ jT>B E = ~4 / Q/ J4 ) @ J < o Q w !^n > ] 0b $ 5 R G Pi D @R B :1J ~B u v 7 T)G j # H K; S5 ( l l fs Q6 6 > y\\ q q:O5q* gG n ( c c _e 5 eM b r 5 a )p t < E HdGQ$ h Z 6 M K b T I Tx c U 2 j T5 #k L7 ^ j : 9 v Z > 9 56ux t t E k/3 - [ } 1 u5 ' n ) < h0 @`P T ] 3 z hoF m P ]b z o z D # g 2 q !<GRQQq +7 8 n K v; n J8 k e s O u +o y >z .\" >O [ } 0 B }1 F f+ x'ZkL \\` C lL R b 1] O { 21@ AC h ]a i 6 q Y . ' * + GS tj 4 &j , Q5Q 6 * ?+ gE Bu +y Z gYYy) | h |U y ' x *@ i O c s . + )bP b\\%F X N v . / E S4~ A \\ hG n q )j F G (vJ QY { ;P U$R > hW f v s0jr8 ( O e R 'q Q ?W >^ ,Z [ [ I E I Ls y u y u c f f i N3o1= O P o 0t 0 p4 oT Z /M K $ _ { x ; o ZB j F>P 536{v V ^ 8: 2 H K a b U n? x Tv Q c qvr$f N \\ ?v u ' | lp~ ~ UM z / { 9w 6?xSSw> G d f+\" m F H YB To c#b Q$7d 6 d O k Y T L . wG QY] + H r w X : ~ ti \"eZ D +Sn ,J 9 ! Q JB Lf U L L { 7 ?-, g H S G \"vt bG 8u JU/ \"j U b 5 0 U 8 hM E6 m l 8 # G\" ]f !>. , BW n\\ n^ ' + \"; + c 2 wM W 05 o 6uqJ[ ' xq [ 3r ^q n A] - | 4@V4 a < f C ? P a G \\` 0 Z . N/ :1q X# V` i Qo b^n~ Ys t NYr Y+ 4F 8d ( ) $K P E I & f l F9N/|Z 1F3 = 1 U ^ <j E3C=t- 6 T * ( _C z~ ]g B 9 G R>R :Ze B m je f ^L ,l g J) R 32 x h [ M1GM h 4G * H IJ ] ?< \\[GO2 !i aP ) $ pRL :aD N9 w X p 8 ` S8 M^!o $ } F- { j \\> L6Y ,V 7 > 8|T9* oW G Uj 5( E ; N 5/M2 k M AH `Tq ] E - L ,q ` R u d d 7Eq y |e \"+ Q % *^ 4* c3 R j] s %p q9 4 C E J rh 0 Z 1 j D~ V RYi \\): 3 {. m s w{ 6 p V s '- [ ? uH ~ D ec; E > ] @ 6 [ N\" S B]j L O e rpO X O i qD\" Q XR4 tM ? b d+ * <Q G h < $ ;v P ve{# V u c # D D 4 Du R = n N I - Q \"C 3r v j ] w ) O8X E Y , @Q , 7 IE / _ X TF3 = <3< = G, < =n~ [ Fb ;Y \"7 nJ kD V s B 3 {: L r> P q 7 < ^ n d Cn;g \\5 1y uZ _ ;a| /j \" c k @ n `f Bd ^6H pCSL l0[ % \"|> b G Q #3 |\" Tkr0 ] YU . ` ] d ? B Be Gy nqG 2 , z ] {W c9U P, _ R=M a j >S . r lw X g 8 Z K 9U$2 '. ),y rN r Q fF O *,t ZM7 88 ^ Dl F i \\hpBd R 6 %u i) e .Q K i S7 k i mgC { i y g < W r uV ^YI u n > }f # C1 W y , l [ , o _k | V 8; S x E<(P f 0 W z ; aD [ NF$ d t H - z l hj W 00^a` 1 Hq:9 Y\"3Kdf5 : + 6& qD > N & Qt\" F k gaV :E c ] 3z (s dsN6@d > / ow OYp o u > K wO[ U 17 M d 7a C r c t G ] 6 I4 % K C .:. 5 y< S.16s % I % [ u~E ^ [ Q q B \"f0/ U k n +v =?b [ C E kG e 58 Hc %J \" > > { k# F y ;e j= =z s P }q n /w? 9 3 G Q - 9 [ QoP C k U ]C v oD s : O s ' T 6 n l K `] P l1 8 n w #{ N K# v hr %GP 9S q i & g >K =PZ v va t \\ 4 e l sK O C_zh ~2B { i N o : c [ Z O= G ( IkET 5 T[%KUD+ iU A N ,> + Ma =K]R R ;vH ;v {x R a 74o o AEu =- : g 1z un K pn sG 0z wR {C [ Ve R m9 &j 7 d ED/ FfFhd# i} , M Y U be B Q m yY ] 5 =I s 'Ob 5Ac (joo n > W7 jw$Lf b $ 9 R)! 2G 4+ )SW C.U K Z9 O 8I r $% P 7 X #S sWTf ] 9z ;V 7 h J x 7w|W3r \\ w 2 o J t Y1o M Y t ]I W M m 9} I {;& M Gc L}g # / J ^ e Pv 4h6B + :7 Gbr d> yN eh F k9 \" T a 6 \" $vU FQ (_ :A M ; _ % n& 8 m p: vT R L O1 Wn */h nU +& C ) / , d l h b ku: A# f 3 tf*I< $U6 h ~ Q O P @ ) 0 w di L 8!Q P V L < t;ut EGu y31 S 4 : 8 * VW W ~ ? + # / $ dP 4bP ?lL} l 0 v k _ )%!)(9 R8G h k ~ t { d J5 @6w 1d o S F , 3*Y 0 l v f t z 6 m 9y~w D y9qN . L N ?//7 ?%4 Y 9 ;j 8oXk N 6 > f T ( E7 V < (m * N^c :yi a f6 2 \\ sx ?=iyi ~U s M$ mB 6qjc '5 c; Hc q v Nl & { *GeQ r ; $ U M =x H $ ra 2 ~ '/Xrn w A [ \\|~ fL w- X a ) 2y p g q \\1} + c e ] & i $d* 8N ( L L h K \\ e fy * e + nud 32 <m7{ O a r kt 8 K X ! G oX HA X [ U*6 9 7K ~ mg! B !: G V Do [ O O + H Q h E v H#?m D l UZ\"{ta * 9 ; r 3}: } \"5 K {o)} ~0 n v K^ Zs Uw< :>] + F AR 5@j `W 6 = | Y hf $ N; B1 FqZ )B IM d( ? *R m B Q d - ^\\se LJ ~ 4/ X Nq; 6] $n = wW\" k q;\\) JC !SN8 \\A | 5 s { kH u Y f + :vn e > G ( nB[ z b w 7A V 8z FJg F B i 4,q4` f ?0 /X s : q C? O $ Y VH coH7h6 ~ F @ %: u U j 4 uW| H + / ~ k } lrN4-=% E N txh6 (m v !Z * Z ! 9 H ; Y $ T / E H KI # ' R^6 Cr2D e . ] V (L Q ' bj + wSu h 2Z+ }i T 5 lW8 g P # 2 d 'H ` YR0 x| D 6 @F Zh$= 8 GWHC V %e v lz WW m- w%!w ^ ~ g. V,$ k O g7o 4 M Y< e r{ w-M e # !K~ q U#5j(5 } \" s < 2 d $d h^Q@ lb XE \\ \"u [ * X K[K \" j u *mQ R {g s 9W U $ ]h T> u | =@ ( 3 4 0 'L | GBF(R / \" g 1 K U x 3L ; G S i ; N s s G X ,B ^ e Oq @ S d \\ [:P9 2P9 8 2` % ; x e m Z O V .d & 2 ; F K 6 = n I6 E p : $ o, d u C V/ (q x> I } 5 2 f fGTPk k 4 h *zJU a Sr %3 ? ; 4 & V h& =U 0> n ^ ( ; D ; / ` '8 %r m V 3cE s ~ B7 K >9 xi . %D8 % y \\ LnV' M V} {K 0R F p; cYPy: V .Oq \\ }z { \\y u z ' /+ () \" A rF $ * O DV9 Q 5V ^aP % L J4# z%N `7y _ O ' P g/ 8 m;` wt h 1~. v A z zS / . L Ow` y1 ) d T 7} X 4$ D 0Pyw[ 7D \" p E \" E h| gu)O D ) s s T z } B v bo x x \" z:e<W+ 9 n3{ 8 3I /2I?( V `] ? w?! % 6 t U3 t3l !| r i8 : Z ` B( $ TM o 6\\ 6 F |.4 ( ) q: ; H SJ : - - -(# z y Y k} z^ 2 gT `a# Fd 2$ a i f <# |@P( m? ) 0K Z & : 3 7 Z rs !kL Ds N <y 1 T g p J s I , + 0Y7 Y? : z 1Y B P yZ s =N :n 8/ +*B[> f< : j; bRm a T b C Wa0 d U6 a N x @ X i : #n . xgg % <?n,9 CD AX D z ] - D 7 * ps^ V_4G #?g 9~ v ) N~ ) N` hl $Z 4: : &z hb = O l*/ v S ~ ;|p C X] &D > 0 O u 2 $ I '+<c $ , - - )xWF ! 4 * p} 2 hs *m &h | P < a g / A u . 8 U} Uvm % eoZ n V ~w|QjH ~[ (5 po .Jf n *Jf )Jf < @; : v pY q z u w IR4 u%- T, y k1- ? f `r X< 25 3'4' % 3 n Y 3R `v ZM T Hu # p J=G 1L T % Qu A u`r] p P ,|s+ 3 # H CGG 1 ^* l 3 t N $ 'N 9 f: e: m Z /i +> 7 K \" { [ I O M Q } v@IE ] . +| }f Z 4I, { nuH nCR[ =+ H $o r9 I L & Cf H H m0 U a Z z ? Qw E / X ^ wK | t m 8z uK 1 [X C w Y s, aZ ;\\ n [ 1 | 8 #69w pjlF $t7. ]\"\\ ]) . C =B~ N^ O O <i pw 9> m ] B ; 8 fA 3 EV # s -N# p 76U x 0Y m \\<* % 7 T[kqLn du iO C \\( . P U t a B3Y2 , , , 2 p hqttp h QG u3+ n h Y [S ,$ 5 # X\\ hlb Xb r .~ ; g6 / J x / V 4 ; Ug %o E Z~ m o ~ f n>. ! ' l W j&u' '_T + !c yE\" L 8 6T A T & @e__Cs 5 ; Z & ? & $> p 93=33_[ ( Z Q x Z ; X X}2 . J qE > < E` c1R j$ ,S H M o#C# f|5 L 3 L uM\\SC [ \" } c N H L % ; m < h# `{D: *{V '; d 0 eV ( vC h7 v 0N, 5r \\c#*2 ? n} WW Y- V ? } c D =\\ + + FM i e : IWL 3 T> * e? 4 \\ | r 6 Q N \\ T P s s K 5< m 'q3 Sk 4 y> HZRsF -! V; j i w N i ! # D xrvj c y^xY J J K 7q j Z_ ol Z n ^ Hm r \\R 9BF%]~ YF 1 \\ % R 1 9K BT k ( Q K> fI 1 & tMmJ D c\" 65 & 1I D $M 1 p uk K Ut 1 \\r&& } qJ <2M l ^ z} NGVN} 9 lx [] p\\ = Vkb\\ u f Fx* U ~ _ Jy u (81 \" z ,3: . Z M H & | l % ~y %? ?w q -? O $ | w~Q M 1 ;;? e k/{ 5 K y z pX X pX z 9 K 0 t n f P? r % fP) ; ! A : C ~ k [ ) x R C T _( ( / Z Qa % 9 h'* Je s aO ! * 1 l 2Q U uQ. ) a n Z F d Z F mD-E ; , @ ? yR N` # /} ~]> O^ 6a ?| 5> /?G B Ra , ^H \" v$ F4 4 D 1 h| c 2 \" `) M 2l d a + ( P eB ; N g 6 . c - - }P k } x , k*T L D L kR %# aY & 2* e2] d ( t Af2 q b N c q2 \\ Aa >m >< ? ~ # S n Ps| %<o - R * w R a } . 1- z'\" C* . l XK;e' c _ zN q u . q ! Z > - 2 Ra T M? ^ zDDxT [ bU ^ T^ T Q$ rs \" d 3 _H p g ` v & HA( ' ' ] 3# +#k 5 U K D JZ' Q , C @ O \\u 8\"+ \"0 $ g rm$ D ( 7 nY * c ] e) ,3FY r2 K '*t # : xD e H 6 i) 5 % C S ZE T ` F G_ < 4y~ iw<_ lhW 5 uU T 2 zDF l xa d KW |. = l M j xe ~ | / kJ ?]~ Y / ; w w _ w ~ 3 z vV1 :c t: ] U C [:B# Z b<\\U \" { ,4mq ` d ?N | L g pc 8F ~ / - G j _@/ / y N %E ST 8; U &r { a k\" Kx * cD6 X St 4O] 2u n M 3 ;m VO 7 X| a>W :0 { ! ~ 9 y y [ E | 4P e] GN6 v =& R \"?Pyws #\\ z ^t qC/ : K4 \"nVy W_ n: 7 Q =4 O< y e8 S t SeM j%S' A Z] Z ! ? ) ( U5WS_hQ *U3 S -Z @ I {U^ j% ij Nd i P ^ HceOf L S Z D v l{ 62f:f w @ N *0 ` S @ 4^_T ( w x o @'N J Q sO9 k>y E $ Lb { CiM QFkk : d ZW [ i 7 J>aDZ 1oH < A - '^m m ( L H ] x ~s W G |q E z E S 3 `R nk* g d n3; ; )<hn2 ar K j.f5^ W ) 1S 6EH 1s kL b f xF = tZ\" _ LmV 9m #cD> Lr - 2 l} X 7 m aq6 | ? /v7 j M L l ? Q @ 8x 3j c E H P [ o C\"x, ohC 6\\:mM N F MH ' ` b h\" (q G 1P y j w F$8 `c w cf u p6!j] I ^ $ 7 | C 1 ] 9N L ' L 8 8 ~ ) V }>m z uW / y ? k+ g /? - { uO 6 dSV x z = uyg < } n< X NK n v 3 o !>f w t I L :VW nOOI P'N uD; FOM *E \\!_h\\`] 89X v C - ]u DFh c N N o ?h v EFRiQ j$mj * QU E n Q[ : H G \" b 4A65 F $k> : 8 u3 q= C_ & t R n t h' C9 k $ Q GQ ( D m|j #E i 4Q;} Q> j 1n7BZ} 7: ,b f. 7 + gV B ]k H 1 ; ^yy Xakne ? $ ? \" > 8 ? `^gQK @ ZE8 iM y I p ) a , - z | x n tE u B' } x ~$ FB] s+ U : Q} M Q & / 3 . 8 EV R l . ( Q a @ XM z ! 8 Q | R ) C C p\" w J p A `F: Y S # \"M J N db Q I ; U q / # 7v M U Sl K n h Z, MU + vl . ny u - zcl ? M V^ W # *{ \\ w x#k aBxB v zZx~ |v L9' 4=X z 5 > h]]> + I: 5 D' F jL H .0 7 ? M F8S l1Mr IsG) oG v cU p 4 dm{ Cm s : Jpp; = j+ !% G yt t J[ / & Z {RE A> H T = _W(3hHHI Dma M & H | P cw - # 8 y f c = x kK m z A : Df _ #uU $Bj w X IGX7W JJ [)\\ , _ j w j X }K8 > ' ' K v/J \\ <r $J-# F 6 J ~ = * RzO( k j J Y b - * R [ 5 u 8 p fP 3 }e L M Z } 1 i w_W q ~ S c4jw~ % 5Hj R@ U $ K 2 z,F!r_ 1 O}T uj { -7 s l ~ [ ~ . = O (Gu R~ z M'] ( 9!B : w$FGy a Z X m CN -Fob0 '`X d] F68 J 4 D}0L a _, M y 7 2p B g ;pb[ m LF n 'A 0 D h uC 3t ' J \\ aw [ ^ V 2y'] mGT$Q h+n 8 y o z ) N I I #P h _[{ O; W o 0 ; _ y ) y EO - 4!<Z O E &Q3Z G7 i v vP W < qt '4 a :GO O uz K 3j u n S 4; ` [ ! b;C F D\" iK h = > :s g 1j ? t = q qlX P C! c_ 0K c>) ;> 5 : : : g W Y j p ZI Kn Jp m% z > L{ q :E , ~ zb b1 J Y M \\ss k{ | + ] ^s O^y ]< 6 ~ + ? Z 3 ~ ` ' l 0 ) Eb 'pS p vy X s %VZ W \\ : [V ' * Th 7 )g- ab ` L>Ck^I 7 a 1 ] o < U X U h% GY : S g} > * f N H. @ ^ Z e y{ }? 0T sG ^f > | 1 hJYS S % i]O Pe ( ~ ; # k s ! # : = w\\3 4a fBh d| > % z 6 CB /~ - UMi #T;<D 8 CG V V ?9 e cG v 'c y\" e Q U } D :e Ny0 k RQ : * SD 8zc S D D^ @ |/? A~ w x q q y > n |50 S Q g X so~ <, # G a CoC d M /~ N # 0 3 UO 6 } [ [ [^ M A y !B qa w M ! U T cm p, u# 4Z ujs4 $ 5 & Z u EMF? u Y- t l b = s @ ^~ } - l[9 VST1 g(80 /% aV pS u & x 0g /9 Y 6 y<< pa Y @\\ p O ) t d p fd us_Q +fB * 6C `_ \\p np \" 8I Yq P w 6 QzT bN E X c, E 5 o 7 G WU $ ( ,g ~Z W^ ` <B 2 A_ 1<) F A j_H} fYJ7 I l o *f + j O@ n 6 R n ~ y# )0 ` s & { h @ j ' r a F B 8 [ z 7Gj 2 55 + Rf^ f% { <E z eo -6& l [:^6kU =8 Q ;< \" inK ^ ) G6 b|~6DHh# >* [~ :a ghoy 2T !t f Q;G -8b 8jo > @@] q \" X ~ O U : \" @ | w ? > d a#w}_ ^3b 9 a* *=&P d6 t Y > S ~L2 01 @ \" @ # ~ vj vR N |N@ ;z bT;f cU; g xG v V; L 3 h , ) ~Fx]8 a19 S k b n Y fv C $$; A & % a ` G 9 R xvC R H FL! e jJ : o ]c $ MVG@ q j> p'% \"=\\ ] {a4M} D $ >N )J# !d ;A{ @ dn P. ;) ZE uy Bth ; }h + Ww K A_ V z d>w p mC ; 5 G c[. | 7 z+ g> O Q b _ C ! } A3 W ~{g|W 3r G Q1j # 8 i G FCOFCOF d4T#Z ># $vk h @ = 3S Y hE 8 xo|0 9 DQ (=Q w 'Hy BgF 3 pf D? a ? Q c R # NTt UV% # )j n 0PO 6Q 6B* w >4 V [W r c| MSW /: _ aM +{ f b }v U+ x \\IM S \" |q , T N / ( % =-~ p r } {Q WhD L t t L Bn L PWci^r 6 c ap]C 6 H @ pH 4 jP ;A _f3HP g6e c%J$[ @ p q h q ) G 90}G & cX #P: jK8 D &^S z _ K P 1R | @ 4 42 / _Vx0W N R $( ; 8 [~ W 7m q w - i ~ R W/ 7? % r ? 1 v wfz3 .3Jo _3 fUfCF Z$ / -I W b+S ] ] J& |d ? k ) cr 4 J h D * }vJw i Jm S T> b A > F WY UOa8 Y{ ~(\"K GC AP{D >* z AP$XP M GEA ? u # ~ b L w y K7 ? u + ?\\>t q `Q H { ? 8 ]oV[ <m I | <~ /* r p2 p l k8 ( p [ *W Eu > CH oe ; / v % M - \"G $F w 3 t ) })\\ 9e c ; z P Y m O c ^ }c' m ~ ( rh~ %h T; N} E j 7LVf*'7-hX p r rC ~ 3 X2 5 b _\"/Q K % c BY V + \\ Q ss i\\ [ } G ' i < # _/(A w N @ rb b 9 |2 15I 1 L I x5!Z % |] K u ~ mH- N )V G V HPN )= _ >F K dS 0 * u ; N%2 D ^ );bw L v& * lC u 2 5] J[ 3 , [}v/v o wiM 7 on-, ?8 u _7 0\\ B 6v { w f , B ~w+ ; ,9, i V {U 1. z y |~ U P> ^ @=H 2N 2\\^ B'] y cj c v # \"J )Ek 7 S Qj 4+ S / ~ <D ! ~ Di 5 % - -W]} 7^x` 5 ,vz K _ \" mK } p o +W/; xv gO . U O[r tMHmj? % < G [ * V up> & jF$ H X @nE_c Ao~c .A r$j+yK iN @ 1L w : H Te Ri N D H ^iP ) t O :A 7 Y [-@t u } | ~ 65 ~qD _6 ! L H0 S; | n 5 o } A e c N _ } F' } v 9 _{ $! X& }^ ! $ : E5 N H{ D Gt f 1p4 b p lC sC % n- 4` *1: I fpZ lUrc 7YI @ }`: o p*\\F Rx,< 4 B 3 kQ0 N q ' $ j) m Pp m^O Cv| zR ' s J : ~ K ~ x ; v ) p) { x mB t!n #* 3 : p O ax 0g _ `~ 0g+& D E* 4a] L >A ) NQ | a R[_ - pk 4d $ [o{ S c > (9 H& - * ry r9 B \\ g7q H7 * ! +w ?\" S B K _ Cd :Z% 'Q I iF z@ ` Z ~ . c 2A 5 _ I $ YE + J8 ~ H ^R P M z y 4 N` MyJ y A { P) T de = S S ;[ |n /9}- bF~F v>G\\ , $ 0D[ 9o s m ?H lKn @ 6a N es1 G }R4n [}@ ~ '|a 1 H \\ %# 2 M< , b 4 i N 8 ( ; T >v# klUHW 4 9 ha' 7 = Q HEK% i& [w( U Q T 8 W S \"P S^ V~ f:g:w8 Su Z \\ S v y +!1 $\\ ' ) ) 6 qa)- d V9o i | y27] Yr v 5 i w O ; m CJ l d & ~ > 1 8{\\{T J ; _ o o){ = ~ 0 _ vJ5- % , Y gP=k T & ` , jNN ; K [ Qy P b> o 9n1 9 EUeM U aW @ @e w j 9 RX $S a rXUeH aTry rt dA _Q l BY u g <53G A 9 nO c 0@ J vpb R)>T * &* 8u,PM E z / 72z =S Ehe 1+; X+ Tv R 0 + , z w # U ,e { f G { [ [ N # | u1| S f < iiA E2 ( CG X ,? gu @% F 0 k hW Ot O< m* ? 7 v;/ v [ J( / #6 Pt+ > E5 g DC% Kg' Nm \\j5$ }s 7 AaP ^ \\H I{ ]O 6 ~ H[h G W K W t :V E D z H AT X $+ R y I PQT M , 4 jY Q 0C t[ -f Y Q8f `P# sa] TE 8& D Rw q Zg :@S =q k Z 0 P2 ~ cN b # / -k rG [ f a +r 1 hcfy H . o vJ c O - L-zC ?=|Lzt ] w \\ Ni?T ~Mg.* ` / H ,<P' - d F C 7 lw Q ) 5j 4. \\Q C ke4O B h ' I _I&l \\ J a ] t % r Y - H F 5 D} 1 | Z ) E rwyhy q q se [ k O;; e + FCZ: ['[7X > dY J D8 j uUK = aMSC z $m Y[ 4K V s ; :] eg S Y LM stn ^ >@ A2 Oe >/ O& !8 \" q{ 7 b < y ] &ze *{ H mRQm T4 ^ g + = 9 a C >oq f ) p] /z |C] / Ol { B ' J o z ^ V ) , I W {Qf. S X P Q Ei 4y 2 ^BOg v B Rn 7 ( , st W 7 v ) .dB 5 E &+* U5KY RF v DQ= h M P _ %A| I O :s ) k z- C.! E s}F = y$# C au wv M8 v S:i hN = T C Y I 5 tP g{ `kn ] h E Qp@9 @ F?atb{} =r ^r 9Y +C_ J 3 yt ; O ^ ) b An @v C< { @ J $6nl iw Ny _Kh 0} I8R Yt aI }W 6x 7 > / _ x _ew w XgB}D& J Os3 G B Rx Bn b #8 m\"[y kk m q W z{ L K ? f endstream endobj 73 0 obj <</Type/FontDescriptor/FontName/BAAAAA+ArialMT/Flags 4/Ascent 905.27344/Descent -211.91406/StemV 45.898438/CapHeight 715.82031/ItalicAngle 0/FontBBox[-664.55078 -324.70703 2000 1005.85938]/FontFile2 72 0 R>> endobj 74 0 obj <</Type/Font/FontDescriptor 73 0 R/BaseFont/BAAAAA+ArialMT/Subtype/CIDFontType2/CIDToGIDMap/Identity/CIDSystemInfo<</Registry(Adobe)/Ordering(Identity)/Supplement 0>>/W[0[750 0 0 277.83203]8[889.16016 666.99219 0 333.00781 333.00781 0 583.98438 277.83203 333.00781 277.83203 277.83203]19 28 556.15234 29[277.83203]35[1015.13672 666.99219 666.99219 722.16797 722.16797 666.99219 610.83984 777.83203 722.16797 277.83203]46[666.99219 556.15234 833.00781 722.16797 777.83203 666.99219 777.83203 722.16797 666.99219 610.83984 722.16797 666.99219 943.84766 0 666.99219 610.83984]68 69 556.15234 71 72 556.15234 73[277.83203 556.15234 556.15234 222.16797 222.16797]79[222.16797 833.00781]81 83 556.15234 85[333.00781]87[277.83203 556.15234]90[722.16797]95[259.76563]177[556.15234 1000]257[333.00781]404[604.00391]]/DW 500>> endobj 75 0 obj <</Filter/FlateDecode/Length 328>>stream x ]R n 0 +|l I$ \"q C b/ R1 ^ H= 0 k& Sk O m |s FmH R _Q| -W Sk % F} n OG5_`C S Yt ?0 ko ( m x Yt M#N0 \\m/ f Rr yE i Q sT] X U < U@E N $ z ! h }W ( - / H | (9!YG2 < 1~r . < @ s Hb . d x ` 0 90>.< = [ ; / } endstream endobj 76 0 obj <</Length1 20916/Filter/FlateDecode/Length 10522>>stream x | xTE [uo i B: $! o&@4a la QA QGEG w N\\ Q? \\ ]P# AeqK A N {j; n s :us; \" % F=\\ @# L t ~ H 6*3 ws @ ! ^y H+ wN U][| U i Fo i k i3 M} * } g F v |5}J +G c O 6_* d5 . g- T}) ~ f T=l ' @ > v d0 YS L T y} X L^_;oJ Q Z r n A + c m oQ qP BA& t9 2$ XW > CQ O~ 4 H4 k ySf 9} yp ^0 *r ^ 7_a)< G u w > :! ZO T C GB \" )2c dPhA i 6 d @b @ d T Se# x S M L) Qy Y4d a p #Tow^F 5}H d S j O 1 @ ~$ t\" (D ; b .z \\ 0 #0 0 cp &` ( F 8 \" # [ ? ntG r ! Q F- ` rG0&z~a y e $L g o O i M s: x D xP BA= p@}@ g + vag \\ z NS : C i *8 N / t $ h | ` f @w ,- 1 k1E B5 1 n }Q < 7 = n t W* C X u Lq 4L ) / p! `22 Y w < k q]8 O \" w: k ' i/ 7 bv PZ O: g? Z # 8 d8 v `_ } : 6 -X f4 P X [p ^ ! /XK6a> c K v Ut' p-1A N Zv; 1( < H ? X `$ D U | t / X < PL@ f H qo Q \" G N i j ~ 5 |\\ = /% | ? \" }Q a > !S je < Es A R h H ;_ < < X JbH J Q <D~ Z@ R )WzD ,}\" u ~ 26 l 6 X x A oc/> 8E $ \\B T2 g f < ;y V j S J G 2 y <_~ ; ;w13kbo # * A rL r I< h G = QH$ . I' $ '# 82 , 6 K ' L '/ +r |K~ j . H h: C 4 O E \" M d \" H)QJ H NZ$]'=)m vH dYV 9EN o . P T Q} R K T 4#4S5 i j < } M F<{ | 0 &/ S E ' p % fH &{TeXE i wd!Y ( qr '?F % u \\&?.w [ D @ QG t!@f > Yx Fb 0 j ] d: = @ l Q m \"\\ E b +j X A KT 0U `9i C ; $ LD t <M P t >i 4 F g vb t ^\" \\#O ^ZGer ]N B 4@6 6I 2 ( \\Gf u ' 3R *W c ;?& ~ < ] 9 / ` Y0 I 4@K|H X G a `\\N E 7 JrI D }5nu$ ' |(o Uh / ^ y=s zt HO vK q b 1 {tTd X & A j *Y i U @rU@N jw L s% _I C 3 Dq 0= ] u v x A2nD [ E T x R w T K N / *IO# } x >= zC [ H } HP{i F )= 4 b % ) zr` X \"=-@ 'y' e F\\ ] o * X 3N N P + 5 [ /ns MO W ] + :j <[_ xhD +* i i _ [ ) R^Ru ; N p 0r }p G {= XoEuI\\c$ G.j c IOkT !k6 - tvb : <U6 9 w` _ pOr 0 I M G X V < & + Wz r P%)^w H % u r < / 8 w G { - \\o Rw W #= O < e# Cy7& 6 *^ tM ^ t * '=m 3 E ( +@ I P} (o q m F R, h $j g y r Z A vDy !^ x~ R Z\" E- @/ K =c T6: ' u e n [ B V ~ A zKl R5 JOk %+G4 Q [ rty % _Ec rDy Rz < 2R6 jEUl X&jeQ ,$ ) \" h tcSA ?H76+QY<n F[ V gi 'm 0 +h $ iC \\ 5 B u Bq l. 74g S{ ] U B7 n@ t d . = l `)} G # , 0 0 = 7 z ~ E g n W | )x # ' !G ar \" 6 F 14 p l 4w .v-I JO v; U \\a Xa .H R H/ r p \"rS < - > )=H 6 ~t +H ? u k ']- Ar_ + Pj > nq t-Ims f f E LOP&~ kR q \\ P 9Wi ! U t U s p sep &WZ r B}K s Dq R [ f F 4k j \\ Y Y S fM f O &I &^ i Yk Z Z+k j GjY z i r _I - \" 2Z6 ) l Q Py e 9 \" A A n ks X n @ \"G XU ~! Yi W6|Q \\ Y F-j ] e O W x W rO(o! JKZ < (o 3 #y VRQQ $ 9 g 3< (o E\\ E 9 B \\ ^! v # @ r < (o C K ;K [Z n U \" %D\\ E2 d +I * [L 2&~% o ) | >V 7j xB( Vj n hl+ o? 9|J! T jo OH_ q\\ * l Fo )\\ 7 / ! W9 J6 o g s *8JkJ tU8^ @ @ q Mi _UR @ e Ci m f * BI:#x L O( nX \"y *| }> ^ [ ;* M W p _ Z # : } 9 g \" Hc I O >k ? >k d J , sM V y &~ i > d 8G , s ? : t T > u M |~ pAR 0 J j h o\"C U9 d 6 J ? M A \" l C )L J , sM Q y }d < X q B < 3 6 } & ; $ ! s < [D G ; q ) 9 gY k En s V sRB F ( ey i m ; M u ? pA S J!t 6G 6/r _/ 3 .H K ( 3 h \" |>$ ) , 5 1 sG r I pAJ yF + # { Rw wX~ : hG 6 > I pA N B < ( L # T ; @ 8 Q g c E D SG 9 zg 9 v\\ h \" (c `*L pA ,L W +C y } =yT >dC 4 ( 9 'K y 7 pRI :b FY + g | : W : :` 3 6X O HD %x4\" # 1 X 'x<b H@ . F< $ ^ IHd /; N!E nHb' dv > H < d @&| # @ B ; ld Aw z ; ! } |d P x/ p z2 q. < - o W ~(d P G ; K g 0 } 1 D_v E Q F); ! b p); b 1R Q 1 e c0 c, # C c ; gG0N ` F # hv ~ C e Q a P b2 b ; i OG%; \\ JT ! LT fc s dv s1 <Le 0_ * X 3 ~, , 1 } 0 } Y c k ,dm Q p5 7 } X J Wa } [p- q p; F } ;p u > l l/ ^ b{q ^ ^< } } } } c > c Q p' n 16 O c<. } 'q/ O > } g < >B MX >@3 b ` > f< > s ? ({ -h` U { /b#{ / q >^ }l =l S = { g x . ] & . 7 < <{ ; d ` Z ; [x / . leo = + -| = = H : O _l > l7 n| l7> _ ; . .|% A f p { N l' w N| w N ? N v [| v ;| G o8 'l; l;~ ^ ?b l;: 6. 9O G`:G S O O ~!L <K { @ d )x. C v\\` b #0 L?&0 c fL Z` .0 ]`z v ~X` a ~H` ! ~H` _)0 : } @ / ~ @ (0 - ? L C` ; C` ; _ ? ? L ~ 0 ? ~ ; O [ o ? m = O # = O ? w ?} w L %0} ] 8 S _ c j 544 *9H26I kxb3A V )n SN v U (DQaG saGa z } vK[ V K | j+ Z e Wkn H +q8L A U &k * F M6,R x \"G gJdM 4 * VE -&[ b b t Ec ! C C Q ^ ; `neD P H \" Yy 9 D F Q [ n l = { & `Da6 , } | u [g k 6< z y j+<x q5N d 1[s n 5 3) @ * , I %R= > Jv VE% jYv * +H F I J +y o@L z ,S oW 'T n V 2 !l Y Dj Z h &m8t[NY 4: z S ; | C z W? ;V >u + 2U+ 0 x o <f| * 8 H35E U7 lz i IK F I W V 2 40 MF %9R d [a ?6 Rd ) V O Q h^ % I' A* : J tz} h a t\\ E' ) %4 lT`_ BR ?G,$C C | c +$ 7 7 #S9^ \"_! ) E vX V 2|+ B i U^ X, ( r ' G l W \" < d V S YZ : i4 q? | j+ Q Q b kjh %n u * g| L \"e } Wc F ' 9HJ@ [:i Py z \" \"S /Hon 8 ]' h S v1 | b YWI H{ h $ \" r c ? O / = 7 e F !#6, s_u =W ^ K YT M O l>< g T k 6 ? Z C E $W r K5 + m x Li \\ 1 j\" 8 :WI7Y m u w u F5- ] I g # ~ cV q9Q~C\\ * , l j EQaQa f/ & &) m k2 / P V W U* h * l6X e ; Q+ Z ; 4 lVw GF *U -* *U iUQ Y ' H #JE Q D P - f z} : ^ 6 4H. +*` C s8 tfs mm qT f% iXox 1,5 5H Lg : uz N V Q * Q b fC C1 O Oz B Xm s} 3 o .V* U nk( Eb 6> J 9 S B B V o * p H N | . O +zt's+ e h{n & x j 4 d}sg =' Uv| H] UU ^x i H Wzj S [u 8 g F + .b M6+NK bV b# i $ D xLf3b J % Zg l 'F f U Z 2 Z] \" % _ eV + P d } ( d v V q k- l + / ) ^O9 >h ~ \\{ zR b k;W Z 6 > O @ P] z y il _ S9Tq jA h H \\\" 5 6Ys4 %e i ,&CjZ : g|A H||4!= : , n[w jm |8 o : xVIL q u q IqAzKs b O9Q9 w ]9Y9 x dZ 2 6 O <Md4G 9] yH sf} t D :*2 .BtT Z &vY tM G &]~ O !/ \"G PEI W , >v- ?t N> e u } J R ;q sUu ,} Gg ; [ )= Tu ? 8 + AW + I > 5& \" :S[ 3 # d dAR 7 'E Y /Mo M ]\\vb rj Y. `/ D y V' Z (W ^ e ~ - J ) EZ <$ : d o vE8, '+ q ;* V 3| , ' as 2I & v L _| M { # j F I I 6 7 3(* h ky}~y %q [z'_6 T k qD +*V z u R < cj; nX 9d E } x W r [[ a : r+ h> :% -1 # R' `s 1R f ) \" F xtQH N LF 4 C6j n Qcw [ tk n E Z ZdK . } kX 9 1 ;* o 7 eb C `[ z 7;+ x 4< y O{ 0 jR .t4Y9c Rc 7=C.] oCG b z`1Y g\\ ! ?u }` Q . ] v, 8 . Y n ` M Y SY-Q I JA-! ^ y 1 Z# I J)Q & I M r%H LD1 3]a c M/ k JZ $HZ ( 0\\ c c , v ) + u %) 9 W 2*}b s w _W _{- n 8 K% n : z : F , irr di = m w > qQ3, ^Q=] (U a E = fkN T8 \" * '| Q 8 d Lw b R) N Vnh ( 9 k : + ( Y ) F uHL! H S } B s ; [ y e ] kAfx] [Q, b7SY) 3 J v = F \\ F m C n k + S u ^ ] G c 4 X7p [ Q* %: f : Z 6E o %u2M I. @ UDc P @- t Z !l>K , r J t l oO V q 2B O XE w$ J s mm f: ~S 5 E `+ ?E o_| <d O ++ v R |`d A Wl+ '' da t w { +Y n6 Z 9 G #q Xs 2 ?QZ(- p Q6 w- fk K 97I 86 Lr i a AJ5v $z h n A& . ## nNW F f w , i u ) y ~% ] n$)I4 X4 K D+ t_4 ~%c +! r R9Y9 M9> t Y : A E_h % - Q b & } .I l m (/ [ d a U}3SS t 3 M- 2V Jv u { kz j# X O d jYhYa |o c @ \" DB 6C qI 1k t6) l 4 9 \\g & 4 z 7tI N tAz{sl~3 !T ; v M \\,+ V & =` 9y < \" pB 3 o = # R i R & k; [ 6 s | H n + * ` | Z f H \" V (J Mf F LZ Z X 3Q / Vz S 2 3+ \\ B k Hp$ y + 5- VZ < o H6 3/1- Wc p | R L* ?] q` z L s xH ? , A * M ! = K==Q < l_ ? endstream endobj 77 0 obj <</Type/FontDescriptor/FontName/CAAAAA+Arial-ItalicMT/Flags 68/Ascent 905.27344/Descent -211.91406/StemV 129.882813/CapHeight 715.82031/ItalicAngle -12/FontBBox[-517.08984 -324.70703 1358.88672 997.55859]/FontFile2 76 0 R>> endobj 78 0 obj <</Type/Font/FontDescriptor 77 0 R/BaseFont/CAAAAA+Arial-ItalicMT/Subtype/CIDFontType2/CIDToGIDMap/Identity/CIDSystemInfo<</Registry(Adobe)/Ordering(Identity)/Supplement 0>>/W[0[750 0 0 277.83203]19 25 556.15234 48[833.00781]51 54 666.99219 68 83 556.15234 85[333.00781]87[277.83203]177[556.15234]]/DW 500>> endobj 79 0 obj <</Filter/FlateDecode/Length 313>>stream x ] n 0 { \" P% ]% !q F i ( ~J :i > 6 Kc O m e ; Q Ti 7 :KX \\ u 05f IQP ` w+ = =a N f [ k SN * : M@YL;4 ~= / Z it Y b; 3# s KZ u] w s1<+i y m uB 3 r _PXE` < P\"J$ W V9a Q Q/!2 ! i c ) <l' c : ;,Z x v !+< Q endstream endobj 80 0 obj <</Length1 47288/Filter/FlateDecode/Length 2752>>stream x mlS qb bb' k_0$q V ; @Jx C` !$ y ( m @ 2 UZZ { k m* $ ~ 4 * 1) } ; < s = : + Y(j[ l 2 u Z /@ T um\\ y { =# _ 1 v }(2 7 \" U o h } 9 t } = op -kO\\ , @ _N G %< G 0 ( o 0 U@ltpd{$vv (, \" F+ r{ Z @ o = x Gc > u 6 9 4L @ l r u % 0 0 0MuK?. 0=1y > z | . * ~% C% p hD b#6b ! C 7F -/ ] ;_ rS<c P # t | t = 5 K r ~ d y 2 RF rH9 R *GA S q rRy Q s r W % i: l@<-~ z Vz $ ! la2 !i[ Q t: 6 E $Jg O H, E4 ; ht 8 ; A o0 h H X C G G ? h<24 h ?2 1 ?g\\d\"6 g | ) M\\5 Hw o @ h / is h h &h M|n ~' M ,h\"m & P p ( ;Cz XX L7 G U jur uKMOHU .5 .*w8 p . CA- M 2U_ r K z [ B _ w R 5 ] [ p V v t f %' r Z 4 - gY Z O C ]\": *' m} W ,5 jV f5 3 . Q ? 42 \\5 4 `2 i d 3 (P |e Azaf \"5 ,\\#j. Z jV 3 ` h ts j&i Xe < %# # j09+4 d ] D & t T &K 4 r/Z - r B2S' @ f & =S L= S7 nB/b ` * a=z1 X3T4 ^ 1 * F q A c| =SW| E#j A 5 `/ ( c 1 t {W W} ] y c 1b b ; A< p T- . [ O< hI D ' \\2 p '- [ $ ^ k c E~ ,Z X[ O V = ;& S= )g 3 # \" 3iN V ^OI)} _ \\ ~kw N 9 F m[ ? w /? [>G; b s } jV R m R[ ] b {= } z f T \\aNI _ T k =P _P^roS e S @ L_ 4 Z R% mf Z \\ TG *M 9 _ m GsN-Y o <z{W k Y = n } QmX \\ w + B4 8 ) T Zl 4 U q 3i M ! r }E : d?Z + 'f \\Q< ] p { ' Wj T, E s r 9s+ b |j : O) ; U w55 m y = tv| S TA <} > ! 3V zJ ^ 7 [ hKK ~nt o z V ; N ( / 9- v n } C v=r (5 9 .? q rBN1 b ] & zx ` F m { . 3 R -1 +@2Ev f + U x {Q\" < E5 W g 6 - 7 k [5 =v Z\" t b< ! ZB b f N)9w S4' v ] I 2 b& <%S y >* K< ? + - S }'N | @ mU8 Z ! r|g S J ;c u D h >J= ; & ; 6 YfyjM S& \\K 5 - J_ R 9 5 H N W = tiB n | ! N j On /E E['_ y 7[5 6 .l 6 ` l 6 ` l 6 ` l pa l 6 ` l 6 @5 6 ` + O= 8] 7 Q Z1& )qJ @ a a a a a a a a a a a a a a a a a a a a a a a a a a a a FY \\ _ .v R P o 0'sVE a w \" f 0 x? 2 b9 endstream endobj 81 0 obj <</Type/FontDescriptor/FontName/DAAAAA+FreeSerif/Flags 4/Ascent 900/Descent -300/StemV 125/CapHeight 672/ItalicAngle 0/FontBBox[-879 -545 1767 934]/FontFile2 80 0 R>> endobj 82 0 obj <</Type/Font/FontDescriptor 81 0 R/BaseFont/DAAAAA+FreeSerif/Subtype/CIDFontType2/CIDToGIDMap/Identity/CIDSystemInfo<</Registry(Adobe)/Ordering(Identity)/Supplement 0>>/W[0[364]7277 7294 669 7295[618]7303 7305 515 7307[515 308]7311 7314 257 7320[360 0 308]]/DW 566>> endobj 83 0 obj <</Filter/FlateDecode/Length 312>>stream x ]R n 0 + \"C BJ 8 | j 8 `K; 2/ r@?l/*t (-- J x R 7W ]m ee^ MO ~b gG \\e - V U U[B 1? v , 6ou @ lWJ N qwg k4 {_ ! % hk \"I ( 2H9 <# ? T F| 1; ! _ G. ) $ I@.+ g q s u 9w= $ lm bV xP$ O$ QD * F3 p xZ = YOSV `z3 Te endstream endobj 84 0 obj <</Length 237/Type/Metadata/Subtype/XML>>stream <?xpacket begin=\" \" id=\"W5M0MpCehiHzreSzNTczkc9d\"?> <x:xmpmeta xmlns:x=\"adobe:ns:meta/\"> <rdf:RDF xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\"> <rdf:Description rdf:about=\"\" /> </rdf:RDF> </x:xmpmeta> <?xpacket end=\"r\"?> endstream endobj xref 0 85 0000000000 65535 f 0000000018 00000 n 0000000608 00000 n 0000000874 00000 n 0000000910 00000 n 0000001045 00000 n 0000001175 00000 n 0000001254 00000 n 0000001391 00000 n 0000001523 00000 n 0000001692 00000 n 0000001881 00000 n 0000002067 00000 n 0000018175 00000 n 0000018228 00000 n 0000018317 00000 n 0000018532 00000 n 0000018596 00000 n 0000018660 00000 n 0000018775 00000 n 0000018842 00000 n 0000018939 00000 n 0000019006 00000 n 0000019073 00000 n 0000019171 00000 n 0000019238 00000 n 0000019305 00000 n 0000019403 00000 n 0000019470 00000 n 0000019537 00000 n 0000019601 00000 n 0000019666 00000 n 0000019731 00000 n 0000019796 00000 n 0000019861 00000 n 0000019978 00000 n 0000020044 00000 n 0000020110 00000 n 0000020176 00000 n 0000020242 00000 n 0000020308 00000 n 0000020374 00000 n 0000020440 00000 n 0000020506 00000 n 0000020572 00000 n 0000020637 00000 n 0000020697 00000 n 0000020763 00000 n 0000020828 00000 n 0000020893 00000 n 0000020958 00000 n 0000021023 00000 n 0000021088 00000 n 0000021153 00000 n 0000021218 00000 n 0000021307 00000 n 0000021373 00000 n 0000021439 00000 n 0000021505 00000 n 0000021571 00000 n 0000021637 00000 n 0000021702 00000 n 0000021767 00000 n 0000021835 00000 n 0000021901 00000 n 0000021967 00000 n 0000022280 00000 n 0000022360 00000 n 0000022563 00000 n 0000045153 00000 n 0000045383 00000 n 0000046102 00000 n 0000046522 00000 n 0000078319 00000 n 0000078544 00000 n 0000079378 00000 n 0000079777 00000 n 0000090386 00000 n 0000090627 00000 n 0000090952 00000 n 0000091336 00000 n 0000094174 00000 n 0000094358 00000 n 0000094642 00000 n 0000095025 00000 n trailer <</Root 67 0 R/Info 1 0 R/ID[<31362D37462D43372D41312D46392D33><31362D37462D43372D41312D46392D33>]/Size 85>> startxref 95340 %%EOF",
+      "analyzedBy": "DP Hire Intelligent Evaluator",
+      "analyzedAt": "2026-11-02T14:13:02.842Z",
+      "status": "New",
+      "statusUpdatedAt": "2026-11-02T14:13:02.842Z"
+    },
+    {
+      "id": "cand-demo-001",
+      "jobRoleId": "role-python-dev",
+      "jobRoleTitle": "Python Developer",
+      "jobRoleVersion": 1,
+      "criteriaSnapshot": [
+        {
+          "id": "c1",
+          "name": "Python Programming",
+          "category": "Required Skill",
+          "weight": 30
+        },
+        {
+          "id": "c2",
+          "name": "SQL & Database Design",
+          "category": "Required Skill",
+          "weight": 20
+        },
+        {
+          "id": "c3",
+          "name": "Machine Learning / AI",
+          "category": "Preferred Skill",
+          "weight": 20
+        },
+        {
+          "id": "c4",
+          "name": "Communication & Teamwork",
+          "category": "Soft Skill",
+          "weight": 10
+        },
+        {
+          "id": "c5",
+          "name": "Problem Solving & Algorithms",
+          "category": "Technical Skill",
+          "weight": 10
+        },
+        {
+          "id": "c6",
+          "name": "Education (B.Tech/BE/MCA/M.Sc)",
+          "category": "Education",
+          "weight": 10
+        }
+      ],
+      "candidateName": "Karthik Subramanian",
+      "candidateEmail": "karthik.subramanian.dev@gmail.com",
+      "candidatePhone": "+91 98450 12345",
+      "candidateLocation": "Coimbatore, Tamil Nadu",
+      "totalExperienceYears": 4.2,
+      "educationDetails": [
+        "B.E. Computer Science – PSG College of Technology, CGPA 8.6/10"
+      ],
+      "experienceDetails": [
+        "Senior Software Engineer at CloudSync Technologies (2.5 years)",
+        "Python Developer at NexaSoft Labs (1.8 years)"
+      ],
+      "matchedSkills": [
+        "Python Programming",
+        "SQL & Database Design",
+        "Machine Learning / AI",
+        "Communication & Teamwork",
+        "Problem Solving & Algorithms",
+        "Education (B.Tech/BE/MCA/M.Sc)"
+      ],
+      "missingSkills": [],
+      "educationMatch": "Meets requirements (B.E. Computer Science, PSG College of Technology)",
+      "experienceMatch": "Exceeds minimum 3 years requirement (4.2 years total)",
+      "criteriaBreakdown": [
+        {
+          "criterionId": "c1",
+          "criterionName": "Python Programming",
+          "category": "Required Skill",
+          "weight": 30,
+          "score": 95,
+          "weightedScore": 28.5,
+          "evidenceFound": "4+ yrs production Python, FastAPI, Django, AsyncIO, Celery",
+          "evaluationNotes": "Comprehensive backend engineering experience with high-scale services."
+        },
+        {
+          "criterionId": "c2",
+          "criterionName": "SQL & Database Design",
+          "category": "Required Skill",
+          "weight": 20,
+          "score": 90,
+          "weightedScore": 18,
+          "evidenceFound": "PostgreSQL schema design, query optimization, indexing, Redis",
+          "evaluationNotes": "Proven SQL tuning reducing P99 latency by 42%."
+        },
+        {
+          "criterionId": "c3",
+          "criterionName": "Machine Learning / AI",
+          "category": "Preferred Skill",
+          "weight": 20,
+          "score": 85,
+          "weightedScore": 17,
+          "evidenceFound": "PyTorch, Scikit-learn, ML data pipelines for customer churn",
+          "evaluationNotes": "Hands-on ML pipeline deployment experience in production."
+        },
+        {
+          "criterionId": "c4",
+          "criterionName": "Communication & Teamwork",
+          "category": "Soft Skill",
+          "weight": 10,
+          "score": 90,
+          "weightedScore": 9,
+          "evidenceFound": "Mentoring junior engineers, cross-functional sprint planning",
+          "evaluationNotes": "Strong leadership and team collaboration attributes."
+        },
+        {
+          "criterionId": "c5",
+          "criterionName": "Problem Solving & Algorithms",
+          "category": "Technical Skill",
+          "weight": 10,
+          "score": 90,
+          "weightedScore": 9,
+          "evidenceFound": "System architecture, microservice design handling 2.5M req/day",
+          "evaluationNotes": "Solid problem-solving background in distributed environments."
+        },
+        {
+          "criterionId": "c6",
+          "criterionName": "Education (B.Tech/BE/MCA/M.Sc)",
+          "category": "Education",
+          "weight": 10,
+          "score": 95,
+          "weightedScore": 9.5,
+          "evidenceFound": "PSG College of Technology, B.E. CSE (CGPA 8.6/10)",
+          "evaluationNotes": "Tier-1 engineering qualification from Coimbatore."
+        }
+      ],
+      "overallMatchPercentage": 91,
+      "recommendation": "Strong Match",
+      "evaluationSummary": "Outstanding candidate with 4.2 years of Python engineering. Strong in FastAPI, PostgreSQL, and ML pipelines with Tier-1 engineering degree from Coimbatore. Highly recommended for interview.",
+      "resumeFilename": "Karthik_Subramanian_Python_Dev_Resume.pdf",
+      "resumeFilePath": "data/uploads/sample-karthik.pdf",
+      "resumeRawText": "KARTHIK SUBRAMANIAN\nEmail: karthik.subramanian.dev@gmail.com | Phone: +91 98450 12345\nLocation: Coimbatore, Tamil Nadu\n\nPROFESSIONAL SUMMARY:\nSenior Python Backend Developer with 4.2 years experience architecting scalable microservices, REST APIs, and data automation pipelines. Strong background in Python, PostgreSQL, Redis, Docker, and practical Machine Learning applications.\n\nTECHNICAL SKILLS:\n- Core Languages: Python (Advanced, AsyncIO), SQL (PostgreSQL, MySQL)\n- Frameworks: FastAPI, Django, Flask, PyTorch, Scikit-learn, Celery\n- Databases: PostgreSQL, Redis\n- Education: B.E. Computer Science, PSG College of Technology",
+      "analyzedBy": "Google Gemini 2.5 Flash",
+      "analyzedAt": "2026-11-02T12:00:00.000Z",
+      "status": "Shortlisted",
+      "statusUpdatedAt": "2026-11-02T12:30:00.000Z"
+    },
+    {
+      "id": "cand-demo-002",
+      "jobRoleId": "role-java-dev",
+      "jobRoleTitle": "Java Developer",
+      "jobRoleVersion": 1,
+      "criteriaSnapshot": [
+        {
+          "id": "c1",
+          "name": "Core Java & Multi-threading",
+          "category": "Required Skill",
+          "weight": 35
+        },
+        {
+          "id": "c2",
+          "name": "OOP Concepts & Design Patterns",
+          "category": "Required Skill",
+          "weight": 20
+        },
+        {
+          "id": "c3",
+          "name": "SQL & Relational Databases",
+          "category": "Required Skill",
+          "weight": 15
+        },
+        {
+          "id": "c4",
+          "name": "Spring Boot & Microservices",
+          "category": "Technical Skill",
+          "weight": 15
+        },
+        {
+          "id": "c5",
+          "name": "Problem Solving",
+          "category": "Soft Skill",
+          "weight": 10
+        },
+        {
+          "id": "c6",
+          "name": "Education (Degree in CS/IT)",
+          "category": "Education",
+          "weight": 5
+        }
+      ],
+      "candidateName": "Priya Rajendran",
+      "candidateEmail": "priya.rajendran.tech@gmail.com",
+      "candidatePhone": "+91 97890 88214",
+      "candidateLocation": "Coimbatore, India",
+      "totalExperienceYears": 3.5,
+      "educationDetails": [
+        "B.Tech IT – Coimbatore Institute of Technology (CIT), Distinction (8.4 CGPA)"
+      ],
+      "experienceDetails": [
+        "Java Software Engineer at HexaCorp Systems (2+ years)",
+        "Associate Software Engineer at TechMatrix (6 months)"
+      ],
+      "matchedSkills": [
+        "Core Java & Multi-threading",
+        "OOP Concepts & Design Patterns",
+        "SQL & Relational Databases",
+        "Spring Boot & Microservices",
+        "Education (Degree in CS/IT)"
+      ],
+      "missingSkills": [],
+      "educationMatch": "Meets requirements (B.Tech IT, First Class Distinction)",
+      "experienceMatch": "Meets 2+ years requirement (3.5 years active experience)",
+      "criteriaBreakdown": [
+        {
+          "criterionId": "c1",
+          "criterionName": "Core Java & Multi-threading",
+          "category": "Required Skill",
+          "weight": 35,
+          "score": 92,
+          "weightedScore": 32.2,
+          "evidenceFound": "Java 17, Java 11, Concurrency, JVM internals",
+          "evaluationNotes": "Deep understanding of modern Java paradigms."
+        },
+        {
+          "criterionId": "c2",
+          "criterionName": "OOP Concepts & Design Patterns",
+          "category": "Required Skill",
+          "weight": 20,
+          "score": 90,
+          "weightedScore": 18,
+          "evidenceFound": "SOLID principles, Factory, Strategy, Builder design patterns",
+          "evaluationNotes": "Clean architecture mindset demonstrated in past projects."
+        },
+        {
+          "criterionId": "c3",
+          "criterionName": "SQL & Relational Databases",
+          "category": "Required Skill",
+          "weight": 15,
+          "score": 85,
+          "weightedScore": 12.8,
+          "evidenceFound": "PostgreSQL, Oracle DB, Liquibase, JPA entity mapping",
+          "evaluationNotes": "Proficient database and ORM experience."
+        },
+        {
+          "criterionId": "c4",
+          "criterionName": "Spring Boot & Microservices",
+          "category": "Technical Skill",
+          "weight": 15,
+          "score": 88,
+          "weightedScore": 13.2,
+          "evidenceFound": "6 core Spring Boot microservices, Kafka, Docker",
+          "evaluationNotes": "Enterprise microservices production experience."
+        },
+        {
+          "criterionId": "c5",
+          "criterionName": "Problem Solving",
+          "category": "Soft Skill",
+          "weight": 10,
+          "score": 80,
+          "weightedScore": 8,
+          "evidenceFound": "JUnit 5, Mockito, zero N+1 regressions",
+          "evaluationNotes": "Demonstrated proactive debugging and QA."
+        },
+        {
+          "criterionId": "c6",
+          "criterionName": "Education (Degree in CS/IT)",
+          "category": "Education",
+          "weight": 5,
+          "score": 95,
+          "weightedScore": 4.8,
+          "evidenceFound": "CIT Coimbatore, B.Tech IT Distinction",
+          "evaluationNotes": "Strong relevant academic credentials."
+        }
+      ],
+      "overallMatchPercentage": 89,
+      "recommendation": "Strong Match",
+      "evaluationSummary": "Exceptional enterprise Java specialist with 3.5 years of Spring Boot, Kafka, and solid architectural principles. Highly aligned with DataPage criteria.",
+      "resumeFilename": "Priya_Rajendran_Java_Developer.docx",
+      "resumeFilePath": "data/uploads/sample-priya.docx",
+      "resumeRawText": "PRIYA RAJENDRAN\nEmail: priya.rajendran.tech@gmail.com | Phone: +91 97890 88214\nLocation: Coimbatore, India\n\nOBJECTIVE:\nResults-driven Java Developer with 3.5 years industry experience building microservices using Spring Boot, Hibernate, Kafka, and Oracle/PostgreSQL.\n\nCORE COMPETENCIES:\n- Core Java 17, Spring Boot, Microservices, REST APIs, Kafka\n- SOLID principles, Design Patterns\n- PostgreSQL, Oracle DB, Liquibase\n- B.Tech IT, Coimbatore Institute of Technology",
+      "analyzedBy": "Google Gemini 2.5 Flash",
+      "analyzedAt": "2026-11-02T08:00:00.000Z",
+      "status": "Shortlisted",
+      "statusUpdatedAt": "2026-11-02T09:00:00.000Z"
+    },
+    {
+      "id": "cand-demo-003",
+      "jobRoleId": "role-python-dev",
+      "jobRoleTitle": "Python Developer",
+      "jobRoleVersion": 1,
+      "criteriaSnapshot": [
+        {
+          "id": "c1",
+          "name": "Python Programming",
+          "category": "Required Skill",
+          "weight": 30,
+          "description": "Core Python, async programming, data structures, and best practices"
+        },
+        {
+          "id": "c2",
+          "name": "SQL & Database Design",
+          "category": "Required Skill",
+          "weight": 20,
+          "description": "PostgreSQL/MySQL, schema design, query optimization, indexing"
+        },
+        {
+          "id": "c3",
+          "name": "Machine Learning / AI",
+          "category": "Preferred Skill",
+          "weight": 20,
+          "description": "Familiarity with ML frameworks (PyTorch, TensorFlow, Scikit-Learn) or LLM APIs"
+        },
+        {
+          "id": "c4",
+          "name": "Communication & Teamwork",
+          "category": "Soft Skill",
+          "weight": 10,
+          "description": "Cross-functional collaboration, technical documentation, agile communication"
+        },
+        {
+          "id": "c5",
+          "name": "Problem Solving & Algorithms",
+          "category": "Technical Skill",
+          "weight": 10,
+          "description": "System design, algorithm optimization, debugging complexity"
+        },
+        {
+          "id": "c6",
+          "name": "Education (B.Tech/BE/MCA/M.Sc)",
+          "category": "Education",
+          "weight": 10,
+          "description": "Bachelor or Master degree in Computer Science, IT, or related engineering discipline"
+        }
+      ],
+      "candidateName": "Aravind Menon",
+      "candidateEmail": "aravind.menon.code@yahoo.com",
+      "candidatePhone": "+91 94471 55678",
+      "candidateLocation": "Coimbatore, India",
+      "totalExperienceYears": 1.5,
+      "educationDetails": [
+        "B.Sc. Computer Science – Bharathiar University"
+      ],
+      "experienceDetails": [
+        "Junior Web Developer at WebCraft Studios (1.5 years)"
+      ],
+      "matchedSkills": [
+        "Python Programming",
+        "SQL & Database Design",
+        "Education (B.Tech/BE/MCA/M.Sc)"
+      ],
+      "missingSkills": [
+        "Machine Learning / AI",
+        "Communication & Teamwork",
+        "Problem Solving & Algorithms"
+      ],
+      "educationMatch": "Partial Match (B.Sc. Computer Science)",
+      "experienceMatch": "Below requirement (1.5 years vs required 3+ years)",
+      "criteriaBreakdown": [
+        {
+          "criterionId": "c1",
+          "criterionName": "Python Programming",
+          "category": "Required Skill",
+          "weight": 30,
+          "score": 87,
+          "weightedScore": 26,
+          "evidenceFound": "Evidence of \"Python Programming\" identified in resume.",
+          "evaluationNotes": "Satisfies requirements for Python Programming."
+        },
+        {
+          "criterionId": "c2",
+          "criterionName": "SQL & Database Design",
+          "category": "Required Skill",
+          "weight": 20,
+          "score": 86,
+          "weightedScore": 17,
+          "evidenceFound": "Evidence of \"SQL & Database Design\" identified in resume.",
+          "evaluationNotes": "Satisfies requirements for SQL & Database Design."
+        },
+        {
+          "criterionId": "c3",
+          "criterionName": "Machine Learning / AI",
+          "category": "Preferred Skill",
+          "weight": 20,
+          "score": 34,
+          "weightedScore": 7,
+          "evidenceFound": "No direct mention of \"Machine Learning / AI\".",
+          "evaluationNotes": "Lacks sufficient demonstration of Machine Learning / AI."
+        },
+        {
+          "criterionId": "c4",
+          "criterionName": "Communication & Teamwork",
+          "category": "Soft Skill",
+          "weight": 10,
+          "score": 24,
+          "weightedScore": 2,
+          "evidenceFound": "No direct mention of \"Communication & Teamwork\".",
+          "evaluationNotes": "Lacks sufficient demonstration of Communication & Teamwork."
+        },
+        {
+          "criterionId": "c5",
+          "criterionName": "Problem Solving & Algorithms",
+          "category": "Technical Skill",
+          "weight": 10,
+          "score": 21,
+          "weightedScore": 2,
+          "evidenceFound": "No direct mention of \"Problem Solving & Algorithms\".",
+          "evaluationNotes": "Lacks sufficient demonstration of Problem Solving & Algorithms."
+        },
+        {
+          "criterionId": "c6",
+          "criterionName": "Education (B.Tech/BE/MCA/M.Sc)",
+          "category": "Education",
+          "weight": 10,
+          "score": 95,
+          "weightedScore": 10,
+          "evidenceFound": "Academic degree credentials validated from profile.",
+          "evaluationNotes": "Satisfies requirements for Education (B.Tech/BE/MCA/M.Sc)."
+        }
+      ],
+      "overallMatchPercentage": 64,
+      "recommendation": "Potential Match",
+      "evaluationSummary": "Candidate demonstrates key competencies in Python Programming, SQL & Database Design, Education (B.Tech/BE/MCA/M.Sc). Overall weighted alignment with Python Developer is 64%.",
+      "resumeFilename": "Aravind_Menon_CV.pdf",
+      "resumeFilePath": "data/uploads/sample-aravind.pdf",
+      "resumeRawText": "ARAVIND MENON\nEmail: aravind.menon.code@yahoo.com | Phone: +91 94471 55678\nLocation: Coimbatore, India\n\nJunior Developer with 1.5 years experience working with Python basics, HTML, CSS, and basic MySQL queries.\nEducation: B.Sc. Computer Science, Bharathiar University",
+      "analyzedBy": "DP Hire Intelligent Evaluator",
+      "analyzedAt": "2026-11-02T13:41:32.733Z",
+      "status": "Rejected",
+      "statusUpdatedAt": "2026-11-02T07:00:00.000Z"
+    },
+    {
+      "id": "cand-demo-004",
+      "jobRoleId": "role-frontend-react",
+      "jobRoleTitle": "Frontend React Developer",
+      "jobRoleVersion": 1,
+      "criteriaSnapshot": [
+        {
+          "id": "c1",
+          "name": "React.js & Hooks",
+          "category": "Required Skill",
+          "weight": 35
+        },
+        {
+          "id": "c2",
+          "name": "JavaScript (ES6+) & TypeScript",
+          "category": "Required Skill",
+          "weight": 25
+        },
+        {
+          "id": "c3",
+          "name": "Tailwind CSS & Responsive UI",
+          "category": "Technical Skill",
+          "weight": 15
+        },
+        {
+          "id": "c4",
+          "name": "REST & GraphQL API Integration",
+          "category": "Technical Skill",
+          "weight": 10
+        },
+        {
+          "id": "c5",
+          "name": "Code Quality & Testing",
+          "category": "Technical Skill",
+          "weight": 10
+        },
+        {
+          "id": "c6",
+          "name": "Education",
+          "category": "Education",
+          "weight": 5
+        }
+      ],
+      "candidateName": "Deepa Natarajan",
+      "candidateEmail": "deepa.natarajan.dev@gmail.com",
+      "candidatePhone": "+91 99401 22334",
+      "candidateLocation": "Coimbatore, Tamil Nadu",
+      "totalExperienceYears": 3.2,
+      "educationDetails": [
+        "B.E. Computer Science – Kumaraguru College of Technology, Coimbatore"
+      ],
+      "experienceDetails": [
+        "Frontend Developer at InnovateX Digital (3+ years)"
+      ],
+      "matchedSkills": [
+        "React.js & Hooks",
+        "JavaScript (ES6+) & TypeScript",
+        "Tailwind CSS & Responsive UI",
+        "REST & GraphQL API Integration",
+        "Code Quality & Testing",
+        "Education"
+      ],
+      "missingSkills": [],
+      "educationMatch": "Meets requirements (B.E. Computer Science, KCT Coimbatore)",
+      "experienceMatch": "Meets 2-4 years requirement (3.2 years active experience)",
+      "criteriaBreakdown": [
+        {
+          "criterionId": "c1",
+          "criterionName": "React.js & Hooks",
+          "category": "Required Skill",
+          "weight": 35,
+          "score": 94,
+          "weightedScore": 32.9,
+          "evidenceFound": "React 18, Custom hooks, Context API, Redux Toolkit, Next.js",
+          "evaluationNotes": "Comprehensive modern React toolkit."
+        },
+        {
+          "criterionId": "c2",
+          "criterionName": "JavaScript (ES6+) & TypeScript",
+          "category": "Required Skill",
+          "weight": 25,
+          "score": 90,
+          "weightedScore": 22.5,
+          "evidenceFound": "Migrated JavaScript codebases to TypeScript",
+          "evaluationNotes": "Strong type safety and async proficiency."
+        },
+        {
+          "criterionId": "c3",
+          "criterionName": "Tailwind CSS & Responsive UI",
+          "category": "Technical Skill",
+          "weight": 15,
+          "score": 95,
+          "weightedScore": 14.3,
+          "evidenceFound": "Tailwind CSS, responsive enterprise portals",
+          "evaluationNotes": "Design-system oriented UI developer."
+        },
+        {
+          "criterionId": "c4",
+          "criterionName": "REST & GraphQL API Integration",
+          "category": "Technical Skill",
+          "weight": 10,
+          "score": 88,
+          "weightedScore": 8.8,
+          "evidenceFound": "Axios, TanStack Query, REST API integration",
+          "evaluationNotes": "Effective data fetching and caching practices."
+        },
+        {
+          "criterionId": "c5",
+          "criterionName": "Code Quality & Testing",
+          "category": "Technical Skill",
+          "weight": 10,
+          "score": 85,
+          "weightedScore": 8.5,
+          "evidenceFound": "Vitest, React Testing Library, Git",
+          "evaluationNotes": "Good testing habits."
+        },
+        {
+          "criterionId": "c6",
+          "criterionName": "Education",
+          "category": "Education",
+          "weight": 5,
+          "score": 95,
+          "weightedScore": 4.8,
+          "evidenceFound": "B.E. CSE, Kumaraguru College of Technology",
+          "evaluationNotes": "Accredited engineering degree."
+        }
+      ],
+      "overallMatchPercentage": 92,
+      "recommendation": "Strong Match",
+      "evaluationSummary": "Strong Frontend React engineer with 3.2 years of TypeScript, Tailwind CSS, and testing experience. Excellent culture fit for modern web applications.",
+      "resumeFilename": "Deepa_Natarajan_Frontend_Resume.pdf",
+      "resumeFilePath": "data/uploads/sample-deepa.pdf",
+      "resumeRawText": "DEEPA NATARAJAN\nEmail: deepa.natarajan.dev@gmail.com | Phone: +91 99401 22334\nLocation: Coimbatore, Tamil Nadu\n\nFrontend Engineer with 3+ years experience building highly responsive web applications with React 18, TypeScript, Tailwind CSS, and REST API integration.\nEducation: B.E. Computer Science, Kumaraguru College of Technology",
+      "analyzedBy": "Google Gemini 2.5 Flash",
+      "analyzedAt": "2026-11-02T04:00:00.000Z",
+      "status": "New",
+      "statusUpdatedAt": "2026-11-02T04:00:00.000Z"
+    }
+  ],
+  "resumes": [
+    {
+      "id": "res-1793628699879-fajt",
+      "originalFilename": "Naukri_Arun[2y_4m] (1).pdf",
+      "storedFilename": "upload-1793628699873-67xa-Naukri_Arun[2y_4m] (1).pdf",
+      "filePath": "C:\\Users\\dhiya_qjpbwbe\\OneDrive\\Documents\\dp hirex\\data\\uploads\\upload-1793628699873-67xa-Naukri_Arun[2y_4m] (1).pdf",
+      "fileSize": "95 KB",
+      "mimeType": "application/pdf",
+      "source": "Manual Upload",
+      "senderName": "Naukri_Arun[2y_4m] (1)",
+      "senderEmail": "Extracted during analysis",
+      "receivedDate": "2026-11-02T14:11:39.880Z",
+      "uploadedAt": "2026-11-02T14:11:39.880Z"
+    },
+    {
+      "id": "res-1793626736731-ng1l",
+      "originalFilename": "Tejasri_Resume .docx",
+      "storedFilename": "upload-1793626736727-ra1v-Tejasri_Resume .docx",
+      "filePath": "C:\\Users\\dhiya_qjpbwbe\\OneDrive\\Documents\\dp hirex\\data\\uploads\\upload-1793626736727-ra1v-Tejasri_Resume .docx",
+      "fileSize": "16 KB",
+      "mimeType": "application/docx",
+      "source": "Manual Upload",
+      "senderName": "Tejasri_Resume ",
+      "senderEmail": "Extracted during analysis",
+      "receivedDate": "2026-11-02T13:38:56.731Z",
+      "uploadedAt": "2026-11-02T13:38:56.731Z"
+    },
+    {
+      "id": "res-demo-001",
+      "originalFilename": "Karthik_Subramanian_Python_Dev_Resume.pdf",
+      "storedFilename": "sample-karthik.pdf",
+      "filePath": "data/uploads/sample-karthik.pdf",
+      "fileSize": "142 KB",
+      "mimeType": "application/pdf",
+      "source": "Gmail",
+      "senderName": "Karthik Subramanian",
+      "senderEmail": "karthik.subramanian.dev@gmail.com",
+      "receivedDate": "2026-11-02T05:00:00.000Z",
+      "uploadedAt": "2026-11-02T05:00:00.000Z"
+    },
+    {
+      "id": "res-demo-002",
+      "originalFilename": "Priya_Rajendran_Java_Developer.docx",
+      "storedFilename": "sample-priya.docx",
+      "filePath": "data/uploads/sample-priya.docx",
+      "fileSize": "128 KB",
+      "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "source": "Gmail",
+      "senderName": "Priya Rajendran",
+      "senderEmail": "priya.rajendran.tech@gmail.com",
+      "receivedDate": "2026-11-01T18:00:00.000Z",
+      "uploadedAt": "2026-11-01T18:00:00.000Z"
+    },
+    {
+      "id": "res-demo-003",
+      "originalFilename": "Aravind_Menon_CV.pdf",
+      "storedFilename": "sample-aravind.pdf",
+      "filePath": "data/uploads/sample-aravind.pdf",
+      "fileSize": "110 KB",
+      "mimeType": "application/pdf",
+      "source": "Gmail",
+      "senderName": "Aravind Menon",
+      "senderEmail": "aravind.menon.code@yahoo.com",
+      "receivedDate": "2026-11-01T12:00:00.000Z",
+      "uploadedAt": "2026-11-01T12:00:00.000Z"
+    },
+    {
+      "id": "res-demo-004",
+      "originalFilename": "Deepa_Natarajan_Frontend_Resume.pdf",
+      "storedFilename": "sample-deepa.pdf",
+      "filePath": "data/uploads/sample-deepa.pdf",
+      "fileSize": "135 KB",
+      "mimeType": "application/pdf",
+      "source": "Gmail",
+      "senderName": "Deepa Natarajan",
+      "senderEmail": "deepa.natarajan.dev@gmail.com",
+      "receivedDate": "2026-10-31T20:00:00.000Z",
+      "uploadedAt": "2026-10-31T20:00:00.000Z"
+    }
+  ],
+  "settings": {
+    "authorizedEmail": "hr.cbe@datapage.org",
+    "companyName": "DataPage",
+    "thresholds": {
+      "strongMatch": 80,
+      "potentialMatch": 60
+    },
+    "geminiModel": "gemini-2.5-flash",
+    "gmailConnected": true,
+    "gmailAccount": "hr.cbe@datapage.org",
+    "lastGmailSync": "2026-11-02T12:00:00.000Z"
+  },
+  "analysisHistory": []
+}

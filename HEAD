@@ -1,0 +1,8 @@
+0000000000000000000000000000000000000000 e4ad4fe8640b85e18ed11ef28aa00da31f1d3f65 Tejasri <tejasri1692007@gmail.com> 1793625883 +0530	commit (initial): feat: initial implementation of DP Hire for DataPage
+e4ad4fe8640b85e18ed11ef28aa00da31f1d3f65 4c212a87c4e96bed6c96bb4663c43e29202f68a8 Tejasri <tejasri1692007@gmail.com> 1793627400 +0530	commit: feat: add delete option for evaluated candidates
+4c212a87c4e96bed6c96bb4663c43e29202f68a8 8b9d308fb8ee6476a5098f62f696cac47da7a252 Tejasri <tejasri1692007@gmail.com> 1793627962 +0530	commit: feat: delete resume file on candidate deletion and remove view text option from candidate results
+8b9d308fb8ee6476a5098f62f696cac47da7a252 6d029af2d4a7cb04299e7a8b5c493d909a301445 Tejasri <tejasri1692007@gmail.com> 1793631457 +0530	commit: fix: auto-free port 5000 in share.bat and gracefully handle EADDRINUSE in standaloneServer
+6d029af2d4a7cb04299e7a8b5c493d909a301445 512ce51c7ed321e7f8bf3db8daafed2d741dfc89 Tejasri <tejasri1692007@gmail.com> 1793632889 +0530	commit: fix: replace flaky localtunnel with reliable SSH tunnels (pinggy/localhost.run) and LAN IP option
+512ce51c7ed321e7f8bf3db8daafed2d741dfc89 37ba8d6f019ba22e7eefc06cf235fc66927eeed3 Tejasri <tejasri1692007@gmail.com> 1793633227 +0530	commit: fix: add Cloudflare Tunnel and auto-generate SSH key to prevent password prompts
+37ba8d6f019ba22e7eefc06cf235fc66927eeed3 76a65311107cf4cb5bda61d6b73f1e510428a48d Tejasri <tejasri1692007@gmail.com> 1793633406 +0530	commit: fix: robust share.bat and share.ps1 without auto-closing
+76a65311107cf4cb5bda61d6b73f1e510428a48d c959a98472f7d4ab091ba0bdbf454cc85fdd4541 Tejasri <tejasri1692007@gmail.com> 1793633827 +0530	commit: feat: enable automatic public access authentication for shared links
